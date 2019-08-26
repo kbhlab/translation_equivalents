@@ -1,0 +1,816 @@
+old_names,new_names
+study_name,study_name
+subject_id,baby_id
+local_lab_id,recording_name
+(avoir) mal,fr_avoir_mal
+à côté de,fr_a_cote_de
+à eux,fr_a_eux
+à lui,fr_a_lui
+à moi,fr_a_moi
+à nous,fr_a_nous
+à terre/par terre,fr_a_terre_par_terre
+à toi,fr_a_toi
+à vous,fr_a_vous
+à/au,fr_a_au
+âne,fr_ane
+ça,fr_ca
+échapper,fr_echapper
+échelle,fr_echelle
+école,fr_ecole
+écouter,fr_ecouter
+écrire,fr_ecrire
+écureuil,fr_ecureuil
+église*,fr_eglise
+éléphant,fr_elephant
+épaule,fr_epaule
+étoile,fr_etoile
+évier/lavabo,fr_evier_lavabo
+aïe,fr_aie
+être,fr_etre
+abeille,fr_abeille
+acheter,fr_acheter
+agneau,fr_agneau
+aider,fr_aider
+aimer,fr_aimer
+allô,fr_allo
+aller,fr_aller
+aller au magasin,fr_aller_au_magasin
+alligator/crocodile,fr_alligator
+allumer,fr_allumer
+alors,fr_alors
+amener,fr_amener
+ami,fr_ami
+animal,fr_animal
+applaudir,fr_applaudir
+apporter,fr_apporter
+après,fr_apres
+arbre,fr_arbre
+argent,fr_argent
+arrêter,fr_arreter
+arroser,fr_arroser
+arrosoir,fr_arrosoir
+aspirateur,fr_aspirateur
+asseoir,fr_asseoir
+assiette,fr_assiette
+attacher,fr_attacher
+attendre,fr_attendre
+attraper,fr_attraper
+au-dessus,fr_au_dessus
+aujourd'hui,fr_aujourd_hui
+aussi,fr_aussi
+auto,fr_auto
+autobus,fr_autobus
+autour,fr_autour
+autre,fr_autre
+avant,fr_avant
+avec,fr_avec
+avion,fr_avion
+avoir,fr_avoir
+baton_bat,fr_baton_bat
+baton_stick,fr_baton_stick
+bébé,fr_bebe
+bêêê bêêê,fr_bee_bee
+bain_object,fr_bain_object
+bain_routine,fr_bain_routine
+balai,fr_balai
+balançoire,fr_balancer
+balancer,fr_balancoire
+balayer,fr_balayer
+balle,fr_balle
+ballon,fr_ballon
+banane,fr_banane
+banc,fr_banc
+bas,fr_bas
+bassinette/berceau,fr_bassinette_berceau
+bateau,fr_bateau
+bavette,fr_bavette
+beau/belle,fr_beau_belle
+beaucoup,fr_beaucoup
+bedaine/ventre,fr_bedaine_ventre
+beigne,fr_beigne
+bercer,fr_bercer
+beurre,fr_beurre
+beurre de pinnote/d'arachide,fr_beurre_de_pinotte_d_arachide
+bibitte,fr_bibitte
+bicyclette,fr_bicyclette
+bien,fr_bien
+bientôt,fr_bientot
+biscuit,fr_biscuit
+biscuit soda,fr_biscuit_soda
+blé d'inde,fr_ble_d_inde
+blanc,fr_blanc
+bleu,fr_bleu
+bloc,fr_bloc
+boîte,fr_boite
+bobo,fr_bobo
+boire,fr_boire
+bol,fr_bol
+bon,fr_bon
+bonbon,fr_bonbon
+bonhomme,fr_bonhomme_de_neige
+bonhomme de neige,fr_bonhomme
+bonjour,fr_bonjour
+bonne nuit,fr_bonne_nuit
+bottes,fr_botte
+bouche,fr_bouche
+bouteille,fr_bouteille
+bouton,fr_bouton
+bras,fr_bras
+brasser,fr_brasser
+bravo!,fr_bravo
+brisé/cassé,fr_brisee_cassee
+briser/casser,fr_briser_casser
+brosse,fr_brosse
+brosse à dent,fr_brosse_a_dents
+brosser,fr_brosser
+brun,fr_brun
+bulles,fr_bulles
+bye/au revoir,fr_bye_au_revoir
+céréale,fr_cereales
+cacher,fr_cacher
+cadeau,fr_cadeau
+café,fr_cafe
+camera,fr_camera
+camion,fr_camion
+camion de pompier,fr_camion_de_pompier
+campagne,fr_campagne
+camping,fr_camping
+canard,fr_canard
+capable,fr_capable
+carotte,fr_carotte
+casse-tête,fr_casse_tete
+ce,fr_ce
+ce soir,fr_ce_soir
+ceinture,fr_ceinture
+celui-là,fr_celui_la
+chaise,fr_chaise
+chaise berçante,fr_chaise_bercante
+chaise haute,fr_chaise_haute
+chambre,fr_chambre
+chandail,fr_chandail
+chanter,fr_chanter
+chapeau,fr_chapeau
+chat,fr_chat
+chatouiller,fr_chatouiller
+chaud,fr_chaud
+cheerios,fr_cheerios
+chemise,fr_chemise
+chercher,fr_chercher
+cheval,fr_cheval
+cheveux,fr_cheveux
+chevreuil,fr_chevreuil
+chez nous,fr_chez_nous
+chien,fr_chien
+chips,fr_chips
+chocolat,fr_chocolat
+choisir,fr_choisir
+chut,fr_chut
+ciel,fr_ciel
+cirque,fr_cirque
+ciseaux,fr_ciseaux
+citrouille,fr_citrouille
+clés,fr_cles
+clou,fr_clou
+clown,fr_clown
+cochon,fr_cochon
+cocorico,fr_cocorico
+cogner (à),fr_cogner_a
+coin coin,fr_coin_coin
+coke,fr_coke
+collant,fr_collant
+collants,fr_collants
+collation,fr_collation
+colle,fr_colle
+coller,fr_coller
+collier,fr_collier
+comme,fr_comme
+comment,fr_comment
+compote aux pommes,fr_compote_aux_pommes
+conduire,fr_conduire
+confiture,fr_confiture
+construire/bâtir,fr_construire_batir
+content,fr_content
+coq,fr_coq
+cornichon,fr_cornichon
+couche,fr_couche
+coucou,fr_coucou
+couper,fr_couper
+cour,fr_cour
+courir,fr_courir
+couteau,fr_couteau
+couverte/couverture,fr_couverte_couverture
+couvrir,fr_couvrir
+cowboy,fr_cowboy
+crème glacée,fr_creme_glacee
+crêpe,fr_crepe
+cracher,fr_cracher
+craie,fr_craie
+crayon,fr_crayon
+crayon de couleur,fr_crayon_de_couleur
+cuillère,fr_cuillere
+cuisine,fr_cuisine
+débarquer,fr_debarquer
+déchirer,fr_dechirer
+dégueulasse,fr_degueulasse
+déjeuner,fr_dejeuner
+dîner,fr_diner
+dans,fr_dans
+danser,fr_danser
+de,fr_de
+de l'autre côté,fr_de_l_autre
+de/du,fr_de_du
+debout,fr_debout
+dehors,fr_dehors
+demain,fr_demain
+dent,fr_dent
+dernier,fr_dernier
+des,fr_des
+descendre,fr_descendre
+dessiner,fr_dessiner
+devant/en avant,fr_devant_en_avant
+dinde,fr_dinde
+dire,fr_dire
+divan/sofa,fr_divan
+docteur,fr_docteur
+dodo,fr_dodo
+doigt,fr_doigt
+donne moi cinq/tape dedans,fr_donne_moi_cinq
+donner,fr_donner
+dormir,fr_dormir
+douche,fr_douche
+doux,fr_doux
+drapeau,fr_drapeau
+dur,fr_dur
+eau_beverage,fr_eau_beverage
+eau_not_beverage,fr_eau_not_beverage
+elle,fr_elle
+elles,fr_elles
+embarquer,fr_embarquer
+embrasser,fr_embrasser
+en,fr_en
+en arrière,fr_en_arriere
+en bas,fr_en_bas
+en dehors (de),fr_en_dehors_de
+en haut,fr_en_haut
+encore,fr_encore
+endormi,fr_endormi
+enfant,fr_enfant
+enlever,fr_enlever
+entendre,fr_entendre
+entrée,fr_entree
+escalier,fr_escalier
+espadrille/soulier de course,fr_espadrille_soulier_de_course
+essayer,fr_essayer
+essuyer,fr_essuyer
+et,fr_et
+fâché,fr_fachee
+fête,fr_fete
+facteur,fr_facteur
+faim,fr_avoir_faim
+faire,fr_faire
+faire caca/faire pipi,fr_faire_caca_pipi
+faire le tour de la maison,fr_faire_le_tour_de_la_maison
+fatigué,fr_fatiguee
+fenêtre,fr_fenetre
+ferme,fr_ferme
+fermer,fr_fermer
+fesses*,fr_fesses
+fille,fr_fille
+fini,fr_fini
+finir,fr_finir
+fleur,fr_fleur
+forêt,fr_foret
+fort,fr_fort
+foulard,fr_foulard
+four,fr_four
+fourchette,fr_fourchette
+fourmi,fr_fourmi
+foyer,fr_foyer
+frère,fr_frere
+fraise,fr_fraise
+frigidaire/frigo,fr_frigidaire_frigo
+froid,fr_froid
+fromage,fr_fromage
+gâteau,fr_gateau
+gants,fr_gants
+garçon,fr_garcon
+garage,fr_garage
+garage (essence),fr_garage_essence
+garde-robe,fr_garde_robe
+gardienne,fr_gardienne
+gazon,fr_gazon
+genou,fr_genou
+gens/monde,fr_gens_monde
+gentil,fr_gentil
+girafe,fr_girafe
+glace,fr_glace
+glisser,fr_glisser
+glissoire,fr_glissoire
+goûter,fr_gouter
+gomme,fr_gomme
+grand-maman*,fr_grand_maman
+grand-papa*,fr_grand_papa
+grenouille,fr_grenouille
+grimper,fr_grimper
+gros comme ça!,fr_gros_comme_ca
+gros/grand,fr_gros_grand
+grr,fr_grr
+hélicoptère,fr_helicoptere
+habit de neige,fr_habit_de_neige
+hamburger,fr_hamburger
+haricot,fr_haricots
+haut,fr_haut
+heure,fr_heure
+hibou,fr_hibou
+hier,fr_hier
+histoire,fr_histoire
+horloge,fr_horloge
+ici,fr_ici
+il,fr_il
+ils,fr_ils
+image,fr_image
+jambe,fr_jambe
+jardin,fr_jardin
+jaune,fr_jaune
+je,fr_je
+je te tiens par la barbichette,fr_je_tiens_par_la_barbichette
+jeans,fr_jeans
+jello,fr_jello
+jeter,fr_jeter
+jeu,fr_jeu
+joli,fr_joli
+joue,fr_joue
+jouer,fr_jouer
+jouet,fr_jouet
+jour,fr_jour
+jus,fr_jus
+j'vais t'attraper,fr_j_vais_t_attraper
+là/là-bas,fr_la_la_bas
+lèvres,fr_levres
+lécher,fr_lecher
+lait,fr_lait
+lampe,fr_lampe
+lancer,fr_lancer
+langue,fr_langue
+lapin,fr_lapin
+laver,fr_laver
+laveuse,fr_laveuse
+le mien,fr_le_mien
+le tien,fr_le_tien
+le/la,fr_le_la
+lego,fr_lego
+lequel/laquelle,fr_lequel_laquelle
+lion,fr_lion
+lire,fr_lire
+lit,fr_lit
+livre,fr_livre
+loin,fr_loin
+long,fr_long
+loup,fr_loup
+lourd,fr_lourd
+lui,fr_lui
+lumière,fr_lumiere
+lune,fr_lune
+lunettes,fr_lunettes
+médicament,fr_medicament
+même,fr_meme
+madame,fr_dame_madame
+magasin,fr_magasin
+main,fr_main
+maintenant,fr_maintenant_tout_de_suite
+mais,fr_mais
+maison,fr_maison
+mal,fr_mal
+malade,fr_malade
+maman*,fr_maman
+manger,fr_manger
+manteau,fr_manteau
+marche,fr_marche
+marcher,fr_marcher
+marteau,fr_marteau
+matin,fr_matin
+me,fr_me
+melon,fr_melon
+menouche menouche,fr_menouche_menouche
+menton,fr_menton
+merci,fr_merci
+mettre,fr_mettre
+meuh,fr_meuh
+miam miam,fr_miam_miam
+miaou,fr_miaou
+mieux,fr_mieux
+mignon/cute,fr_mignon
+mitaine,fr_mitaine
+moi,fr_moi
+mon,fr_mon
+monsieur,fr_monsieur
+monter,fr_monter
+montre,fr_montre
+montrer,fr_montrer
+mordre,fr_mordre
+moto,fr_moto
+mouchoir/kleenex,fr_mouchoir_kleenex
+mouillé,fr_mouillee
+moustache,fr_moustache
+mouton,fr_mouton
+muffin,fr_muffin
+nôtre/nos,fr_notre
+nager,fr_nager
+neige,fr_neige
+nettoyer,fr_nettoyer
+nez,fr_nez
+noir,fr_noir
+noix,fr_noix
+nom de l'animal domestique,fr_nom_de_l_animal_domestique
+nom du gardien(ne),fr_nom_du_gardien
+nombril,fr_nombril
+non,fr_non
+nouilles/pâtes,fr_nouilles_pates
+nourriture,fr_nourriture
+nous,fr_nous
+nouveau,fr_nouveau
+nuage,fr_nuage
+nuit,fr_nuit
+o.k.,fr_okay
+où,fr_ou
+oeuf,fr_oeuf
+oh oh,fr_oh_oh
+oie,fr_oie
+oiseau,fr_oiseau
+on,fr_on
+oncle/mononcle,fr_oncle_mononcle
+orange_colour,fr_orange_colour
+orange_food,fr_orange_food
+oreille,fr_oreille
+oreiller,fr_oreiller
+orignal,fr_orignal
+orteil,fr_orteil
+oui,fr_oui
+ours,fr_ours
+ourson/nounours,fr_ourson_nounours
+ouvrir,fr_ouvrir
+pâte à modeler,fr_pate_a_modeler
+pénis*,fr_penis
+pain,fr_pain
+panda,fr_panda
+panier,fr_panier
+pantalons,fr_pantalon
+pantoufle,fr_pantoufle
+papa*,fr_papa
+papier,fr_papier
+papillon,fr_papillon
+par,fr_par
+parc,fr_parc
+parc (d'enfant),fr_parc_d_enfant
+parce que,fr_parce_que
+par-dessus,fr_par_dessus
+pareil,fr_pareil
+parler,fr_parler
+parler (au téléphone),fr_parler_au_telephone
+partager,fr_partager
+parti,fr_parti
+pas,fr_pas
+patate,fr_patate
+patate frite,fr_patate_frite
+patiner,fr_patiner
+pauvre,fr_pauvre
+peigne,fr_peigne
+peinturer,fr_peinturer
+pelle,fr_pelle
+penser,fr_penser
+perles/boules,fr_perles_boules
+personne,fr_personne
+petit,fr_petit
+petite culotte/culotte,fr_culotte
+peur,fr_avoir_peur
+photo,fr_photo
+pièce,fr_piece
+pieds,fr_pieds
+pierre,fr_pierre
+pingouin,fr_pingouin
+pique-nique,fr_pique_nique
+piscine,fr_piscine
+pizza,fr_pizza
+plage,fr_plage
+plante,fr_plante
+plat,fr_plat
+plein,fr_plein
+pleurer,fr_pleurer
+pluie,fr_pluie
+plus,fr_plus
+plus tard,fr_plus_tard
+plusieurs,fr_plusieurs
+poêle,fr_poele
+pois,fr_pois
+poisson_animal,fr_poisson_animal
+poisson_food,fr_poisson_food
+police,fr_police
+pomme,fr_pomme
+pompier,fr_pompier
+popcorn,fr_popcorn
+popsicle,fr_popsicle
+porte,fr_porte
+pot_jar,fr_pot_jar
+pot_potty,fr_pot_potty
+poubelle,fr_poubelle
+pouding,fr_pouding
+poule,fr_poule
+poulet_animal,fr_poulet_animal
+poulet_food,fr_poulet_food
+poupée,fr_poupee
+pour,fr_pour
+pourquoi,fr_pourquoi
+pousser,fr_pousser
+poussette,fr_poussette
+pouvoir,fr_pouvoir
+premier,fr_premier
+prendre,fr_prendre
+pris,fr_pris
+professeur(e),fr_professeur
+propre,fr_propre
+puis,fr_puis
+pyjama,fr_pyjama
+quand,fr_quand
+quel,fr_quel
+qui,fr_qui
+quoi,fr_quoi
+réparer,fr_reparer
+réveillé,fr_reveillee
+réveiller,fr_reveiller
+radio,fr_radio
+raisin,fr_raisin
+raisin sec,fr_raisin_sec
+ramasser,fr_ramasser
+ranger,fr_ranger
+regarder,fr_regarder
+renverser,fr_renverser
+rester,fr_rester
+retourne-toi,fr_retourne_toi
+robe,fr_robe
+roche,fr_roche
+rond,fr_rond
+roue,fr_roue
+rouge,fr_rouge
+ruban,fr_ruban
+rue,fr_rue
+sécher,fr_secher
+sécheuse,fr_secheuse
+sable,fr_sable
+sacoche/sac à main,fr_sacoche_sac_a_main
+sale,fr_sale
+salle de bain/toilette,fr_salle_de_bain_toilette
+salon,fr_salon
+sandwich,fr_sandwich
+sauce,fr_sauce
+sauter,fr_sauter
+savon,fr_savon
+se dépêcher,fr_se_depecher
+seau,fr_seau
+sec,fr_sec
+sel,fr_sel
+serviette,fr_serviette
+serviette de table,fr_serviette_de_table
+shorts,fr_shorts
+si,fr_si
+s'il-vous-plaît,fr_sil_vous_plait
+singe,fr_singe
+soeur,fr_soeur
+soif,fr_avoir_soif
+soleil,fr_soleil
+son,fr_son
+son propre nom,fr_son_propre_nom
+sou,fr_sou
+souffler,fr_souffler
+soulier,fr_soulier
+soupe,fr_soupe
+souper,fr_souper
+sourire,fr_sourire
+souris,fr_souris
+sous/en dessous,fr_sous_en_dessous
+sous-sol,fr_sous_sol
+spaghetti,fr_spaghetti
+stylo,fr_stylo
+suçon,fr_sucon
+sur,fr_sur
+surveiller,fr_surveiller
+téléphone,fr_telephone
+télévision,fr_television
+tête,fr_tete
+table,fr_table
+tannant/méchant,fr_tannant_mechant
+tantôt,fr_tantot
+tante/matante,fr_tante_matante
+tape tape,fr_tape_tape
+taper,fr_taper
+tasse,fr_tasse
+tchou tchou,fr_tchou_tchou
+tenir,fr_tenir
+terrain de jeu,fr_terrain_de_jeu
+thon,fr_thon
+tigre,fr_tigre
+tirer,fr_tirer
+tiroir,fr_tiroir
+toast,fr_toast_rotie
+toi,fr_toi
+toit,fr_toit
+tomber,fr_tomber
+ton,fr_ton
+tondeuse,fr_tondeuse
+tortue,fr_tortue
+toucher,fr_toucher
+tourner,fr_tourner
+tout à l'heure,fr_tout_a_l_heure
+tout/toute,fr_tout
+toutou,fr_toutou
+traîneau,fr_traineau
+tracteur,fr_tracteur
+train,fr_train
+tranquille,fr_tranquille
+transporter,fr_transporter
+travail/bureau,fr_travail_bureau
+travailler,fr_travailler
+tricycle,fr_tricycle
+triste/(avoir) peine,fr_triste
+trop,fr_trop
+trottoir,fr_trottoir
+trouver,fr_trouver
+tu,fr_tu
+tuyau/boyau,fr_tuyau_boyau
+un autre,fr_un_autre
+un peu,fr_un_peu
+un/une,fr_un_une
+véranda/balcon,fr_veranda_balcon
+vache,fr_vache
+vagin/vulve*,fr_vagin_vulve
+vanille,fr_vanille
+venir,fr_venir
+vent,fr_vent
+verre,fr_verre
+verser,fr_verser
+vert,fr_vert
+viande,fr_viande
+vidanges,fr_vidanges
+vide,fr_vide
+vieux,fr_vieux
+visage,fr_visage
+vitamine,fr_vitamine
+vite,fr_vite
+voir,fr_voir
+vouloir,fr_vouloir
+vous,fr_vous
+vroum,fr_vroum
+wouf wouf,fr_wouf_wouf
+"y (par exemple, ""on y va"")",fr_y
+yeux,fr_yeux
+yogourt,fr_yogourt
+zèbre,fr_zebre
+zip/fermeture-éclair,fr_zip_fermeture
+zoo,fr_zoo
+"Votre enfant parle-t-il d'événements passés ou de personnes qui ne sont pas présentes? Par exemple, si vous avez vu une parade ensemble la semaine dernière, lui arrive-t-il de vous en ""parler"" en mentionnant des mots comme ""parade"", ""clown"", etc.?",discard1
+"Votre enfant parle-t-il de choses qui se produiront plus tard? Par exemple, dirait-il ""tchou tchou"" ou ""avion"" avant de partir en voyage ou ""balançoire"" avant d'aller au parc?",discard2
+"Votre enfant parle-t-il d'objets qui ne sont pas présents? Par exemple, demande-t-il un jouet qui n'est pas là, mentionne-t-il un animal hors de son champ de vision ou une personne absente?",discard3
+"Votre enfant comprend-il quand vous lui demandez un objet qui n'est pas dans la même pièce? Par exemple, va-t-il dans sa chambre chercher son toutou lorsque vous dites ""Où il est ton nounours?""",discard4
+"Votre enfant pointe-t-il ou prend-il un objet en nommant un personne absente à qui appartient cet objet? Par exemple, lui arrive-t-il de montrer les souliers de sa maman en disant ""maman""?",discard5
+aim__e__,discard6
+aim__ons__,discard7
+aim__ez__,discard8
+aim__er__,discard9
+fin__is__1,discard10
+fin__issons__,discard11
+fin__issez__,discard12
+fin__ir__,discard13
+v__eux__,discard14
+voul__ons__,discard15
+voul__ez__,discard16
+voul__oir__,discard17
+va manger,discard18
+mang__erai__,discard19
+fini2,discard20
+a fini,discard21
+fini__ssais__,discard22
+mang__e__,discard23
+fin__is__2,discard24
+v__iens__,discard25
+ai,discard26
+as/a,discard27
+avons,discard28
+avez,discard29
+ont,discard30
+suis,discard31
+es/est,discard32
+sommes,discard33
+êtes,discard34
+sont,discard35
+vais,discard36
+vas/va,discard37
+allons,discard38
+allez,discard39
+vont,discard40
+"Votre enfant utilise-t-il la forme masculine et féminine d’un même adjectif (par ex., gros/grosse, beau/belle)",discard41
+"Votre enfant a-t-il commencé à combiner des mots? Par exemple, dit-il des choses comme ""papa parti"" ou ""encore jus""?",discard42
+item_example1,discard43
+item_example2,discard44
+item_example3,discard45
+Auto papa / Auto à papa,discard46
+Toutou bébé / Toutou au bébé,discard47
+Fille maison / Fille dans maison,discard48
+Biscuit maman / Biscuit pour maman,discard49
+Chien table / Chien sur (la) table,discard50
+Encore biscuit / Encore des biscuits,discard51
+"Donne pomme, maman / Donne une pomme, maman",discard52
+Papa parti / Papa est parti,discard53
+Pelle Pascal / Pascal a une pelle,discard54
+Belle ta robe / Ta robe est belle,discard55
+Où maman? / Est où maman?,discard56
+Mon camion / C'est mon camion,discard57
+Chat là / (Il) y un chat,discard58
+Lancer balle / Lance (la) balle,discard59
+Pas laver poupée / Lave pas poupée,discard60
+Encore jus / Veux d'autre jus,discard61
+Regarder télé / Veux regarder télé,discard62
+Donner un bec / Veux donner un bec,discard63
+Toi saute? / Peux-tu sauter,discard64
+Moi pas faire ça / Moi peux pas faire ça,discard65
+Pipi dehors minou / Minou fait pipi dehors,discard66
+Pas marcher là / Faut pas marcher là,discard67
+Moi livre / Le livre à moi,discard68
+Mange une pomme / Je mange une pomme,discard69
+La tête tombé / Il (est) tombé sur la tête,discard70
+Papa parti / Papa parti travailler,discard71
+Regarde-moi / Regarde-moi danser,discard72
+Donne cuillère / Donne (la) cuillère pour manger,discard73
+Veux biscuits / Veux biscuits et (pis) lait,discard74
+On a fait ça / Sophie et (pis) moi a fait ça,discard75
+Je chante une chanson / Je chante une chanson pour toi,discard76
+Pas lire le livre / Veux pas tu lis le livre,discard77
+C'est maman chante / C'est maman qui chante,discard78
+Je veux lui / Je veux lui que tu as,discard79
+Regarde ça / Regarde ce que j'ai,discard80
+Bébé rit / Bébé rit parce que content,discard81
+Le chapeau de le monsieur / Le chapeau du monsieur,discard82
+Mon camion / Camion Simon,discard83
+Moi sali / Simon sali,discard84
+Prends-moi / Prends Simon,discard85
+Veux jus / Simon jus,discard86
+Toi belle / Maman belle,discard87
+Brosse les dents / Brosse dents maman,discard88
+Il dort / Le chat dort,discard89
+Ouvre-la / Ouvre la porte,discard90
+C'est chaud / La soupe est chaude,discard91
+Pas faire ça / Pas laver cheveux,discard92
+Jus dedans / Jus dans tasse,discard93
+Total Produced,discard94
+How Children Use Words,discard95
+Word Forms: Verb Tenses,discard96
+Word Forms: Verb Endings,discard97
+Word Forms: Adjectives,discard98
+Combining,discard99
+Complexity,discard100
+Pronoun Usage: Pronoun,discard101
+Pronoun Usage: Article,discard102
+repeat_num,discard103
+administration_id,discard104
+link,discard105
+completed,discard106
+completedBackgroundInfo,discard107
+due_date,discard108
+last_modified,discard109
+created_date,discard110
+age,discard111
+sex,discard112
+zip_code,discard113
+birth_order,discard114
+birth_weight_lb,discard115
+birth_weight_kg,discard116
+multi_birth_boolean,discard117
+multi_birth,discard118
+born_on_due_date,discard119
+early_or_late,discard120
+due_date_diff,discard121
+mother_yob,discard122
+mother_education,discard123
+father_yob,discard124
+father_education,discard125
+annual_income,discard126
+child_hispanic_latino,discard127
+child_ethnicity,discard128
+caregiver_info,discard129
+other_languages_boolean,discard130
+other_languages,discard131
+language_from,discard132
+language_days_per_week,discard133
+language_hours_per_day,discard134
+ear_infections_boolean,discard135
+ear_infections,discard136
+hearing_loss_boolean,discard137
+hearing_loss,discard138
+vision_problems_boolean,discard139
+vision_problems,discard140
+illnesses_boolean,discard141
+illnesses,discard142
+services_boolean,discard143
+services,discard144
+worried_boolean,discard145
+worried,discard146
+learning_disability_boolean,discard147
+learning_disability,discard148

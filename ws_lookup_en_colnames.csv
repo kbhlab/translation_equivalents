@@ -1,0 +1,859 @@
+old_names,new_names
+study_name,study_name
+subject_id,baby_id
+local_lab_id,recording_name
+a,en_a
+a lot,en_a_lot
+about,en_about
+above,en_above
+after,en_after
+airplane,en_airplane
+all,en_all
+all gone,en_all_gone
+alligator,en_alligator
+am,en_am
+an,en_an
+and,en_and
+animal,en_animal
+ankle,en_ankle
+another,en_another
+ant,en_ant
+any,en_any
+apple,en_apple
+applesauce,en_applesauce
+are,en_are
+arm,en_arm
+around,en_around
+asleep,en_asleep
+at,en_at
+aunt*,en_aunt
+awake,en_awake
+away,en_away
+baa baa,en_baa_baa
+baby,en_baby
+babysitter,en_babysitter
+babysitter's name,en_babysitters_name
+back,en_back
+backyard,en_backyard
+bad,en_bad
+ball,en_ball
+balloon,en_balloon
+banana,en_banana
+basement,en_basement
+basket,en_basket
+bat,en_bat
+bath,en_bath
+bathroom,en_bathroom
+bathtub,en_bathtub
+be,en_be
+beach,en_beach
+beads,en_beads
+beans,en_beans
+bear,en_bear
+because,en_because
+bed,en_bed
+bedroom,en_bedroom
+bee,en_bee
+before,en_before
+behind,en_behind
+belly button,en_belly_button
+belt,en_belt
+bench,en_bench
+beside,en_beside
+better,en_better
+bib,en_bib
+bicycle,en_bicycle
+big,en_big
+bird,en_bird
+bite,en_bite
+black,en_black
+blanket,en_blanket
+block,en_block
+blow,en_blow
+blue,en_blue
+boat,en_boat
+book,en_book
+boots,en_boots
+bottle,en_bottle
+bowl,en_bowl
+box,en_box
+boy,en_boy
+bread,en_bread
+break,en_break
+breakfast,en_breakfast
+bring,en_bring
+broken,en_broken
+broom,en_broom
+brother,en_brother
+brown,en_brown
+brush,en_brush
+bubbles,en_bubbles
+bucket,en_bucket
+bug,en_bug
+build,en_build
+bump,en_bump
+bunny,en_bunny
+bus,en_bus
+but,en_but
+butter,en_butter
+butterfly,en_butterfly
+buttocks/bottom*,en_buttocks
+button,en_button
+buy,en_buy
+by,en_by
+bye,en_bye
+cake,en_cake
+call (on phone),en_call_on_phone
+camera,en_camera
+camping,en_camping
+can (auxiliary),en_can_auxiliary
+can (object),en_can_object
+candy,en_candy
+car,en_car
+careful,en_careful
+carrots,en_carrots
+carry,en_carry
+cat,en_cat
+catch,en_catch
+cereal,en_cereal
+chair,en_chair
+chalk,en_chalk
+chase,en_chase
+cheek,en_cheek
+cheerios,en_cheerios
+cheese,en_cheese
+chicken (animal),en_chicken_animal
+chicken (food),en_chicken_food
+child,en_child
+child's own name,en_childs_own_name
+chin,en_chin
+chocolate,en_chocolate
+choo choo,en_choo_choo
+church*,en_church
+circus,en_circus
+clap,en_clap
+clean (action),en_clean_action
+clean (description),en_clean_description
+climb,en_climb
+clock,en_clock
+close,en_close
+closet,en_closet
+cloud,en_cloud
+clown,en_clown
+coat,en_coat
+cockadoodledoo,en_cockadoodledoo
+coffee,en_coffee
+coke,en_coke
+cold,en_cold
+comb,en_comb
+cook,en_cook
+cookie,en_cookie
+corn,en_corn
+couch,en_couch
+could,en_could
+country,en_country
+cover,en_cover
+cow,en_cow
+cowboy,en_cowboy
+cracker,en_cracker
+crayon,en_crayon
+crib,en_crib
+cry,en_cry
+cup,en_cup
+cut,en_cut
+cute,en_cute
+daddy*,en_daddy
+dance,en_dance
+dark,en_dark
+day,en_day
+deer,en_deer
+diaper,en_diaper
+did/did ya,en_did_did_ya
+dinner,en_dinner
+dirty,en_dirty
+dish,en_dish
+do,en_do
+doctor,en_doctor
+does,en_does
+dog,en_dog
+doll,en_doll
+donkey,en_donkey
+don't,en_don_t
+donut,en_donut
+door,en_door
+down,en_down
+downtown,en_downtown
+draw,en_draw
+drawer,en_drawer
+dress,en_dress
+drink (action),en_drink_action
+drink (beverage),en_drink_beverage
+drive,en_drive
+drop,en_drop
+dry (action),en_dry_action
+dry (description),en_dry_description
+dryer,en_dryer
+duck,en_duck
+dump,en_dump
+each,en_each
+ear,en_ear
+eat,en_eat
+egg,en_egg
+elephant,en_elephant
+empty,en_empty
+every,en_every
+eye,en_eye
+face,en_face
+fall,en_fall
+farm,en_farm
+fast,en_fast
+feed,en_feed
+feet,en_feet
+find,en_find
+fine,en_fine
+finger,en_finger
+finish,en_finish
+fireman,en_fireman
+firetruck,en_firetruck
+first,en_first
+fish (animal),en_fish_animal
+fish (food),en_fish_food
+fit,en_fit
+fix,en_fix
+flag,en_flag
+flower,en_flower
+food,en_food
+for,en_for
+fork,en_fork
+french fries,en_french_fries
+friend,en_friend
+frog,en_frog
+full,en_full
+game,en_game
+garage,en_garage
+garbage,en_garbage
+garden,en_garden
+gas station,en_gas_station
+gentle,en_gentle
+get,en_get
+giraffe,en_giraffe
+girl,en_girl
+give,en_give
+give me five!,en_give_me_five
+glass,en_glass
+glasses,en_glasses
+gloves,en_gloves
+glue,en_glue
+go,en_go
+go potty,en_go_potty
+gonna get you!,en_gonna_get_you
+gonna/going to,en_gonna_going_to
+good,en_good
+goose,en_goose
+gotta/got to,en_gotta_got_to
+grandma*,en_grandma
+grandpa*,en_grandpa
+grapes,en_grapes
+grass,en_grass
+green,en_green
+green beans,en_green_bean
+grrr,en_grr
+gum,en_gum
+hafta/have to,en_hafta_have_to
+hair,en_hair
+hamburger,en_hamburger
+hammer,en_hammer
+hand,en_hand
+happy,en_happy
+hard,en_hard
+hat,en_hat
+hate,en_hate
+have,en_have
+he,en_he
+head,en_head
+hear,en_hear
+heavy,en_heavy
+helicopter,en_helicopter
+hello,en_hello
+help,en_help
+hen,en_hen
+her,en_her
+here,en_here
+hers,en_hers
+hi,en_hi
+hide,en_hide
+high,en_high
+high chair,en_high_chair
+him,en_him
+his,en_his
+hit,en_hit
+hold,en_hold
+home,en_home
+horse,en_horse
+hose,en_hose
+hot,en_hot
+house,en_house
+how,en_how
+hug,en_hug
+hungry,en_hungry
+hurry,en_hurry
+hurt,en_hurt
+I,en_i
+ice,en_ice
+ice cream,en_ice_cream
+if,en_if
+inside/in,en_inside
+into,en_into
+is,en_is
+it,en_it
+jacket,en_jacket
+jar,en_jar
+jeans,en_jeans
+jello,en_jello
+jelly,en_jelly
+juice,en_juice
+jump,en_jump
+keys,en_keys
+kick,en_kick
+kiss,en_kiss
+kitchen,en_kitchen
+kitty,en_kitty
+knee,en_knee
+knife,en_knife
+knock,en_knock
+ladder,en_ladder
+lady,en_lady
+lamb,en_lamb
+lamp,en_lamp
+last,en_last
+later,en_later
+lawn mower,en_lawn_mower
+leg,en_leg
+lemme/let me,en_lemme_let_me
+lick,en_lick
+light,en_light
+like,en_like
+lion,en_lion
+lips,en_lips
+listen,en_listen
+little (description),en_little
+living room,en_living_room
+lollipop,en_lollipop
+long,en_long
+look,en_look
+loud,en_loud
+love,en_love
+lunch,en_lunch
+mad,en_mad
+mailman,en_mailman
+make,en_make
+man,en_man
+me,en_me
+meat,en_meat
+medicine,en_medicine
+melon,en_melon
+meow,en_meow
+milk,en_milk
+mine,en_mine
+mittens,en_mittens
+mommy*,en_mommy
+money,en_money
+monkey,en_monkey
+moo,en_moo
+moon,en_moon
+moose,en_moose
+mop,en_mop
+more,en_more
+morning,en_morning
+motorcycle,en_motorcycle
+mouse,en_mouse
+mouth,en_mouth
+movie,en_movie
+much,en_much
+muffin,en_muffin
+my,en_my
+myself,en_myself
+nail,en_nail
+nap,en_nap
+napkin,en_napkin
+naughty,en_naughty
+necklace,en_necklace
+need/need to,en_need_need_to
+new,en_new
+next to,en_next_to
+nice,en_nice
+night,en_night
+night night,en_night_night
+no,en_no
+noisy,en_noisy
+none,en_none
+noodles,en_noodles
+nose,en_nose
+not,en_not
+now,en_now
+nurse,en_nurse
+nuts,en_nuts
+of,en_of
+off,en_off
+old,en_old
+on,en_on
+on top of,en_on_top_of
+open,en_open
+orange (description),en_orange_colour
+orange (food),en_orange_food
+other,en_other
+ouch,en_ouch
+our,en_our
+out,en_out
+outside,en_outisde
+oven,en_oven
+over,en_over
+owie/boo boo,en_owie_boo_boo
+owl,en_owl
+paint,en_paint
+pajamas,en_pajamas
+pancake,en_pancake
+pants,en_pants
+paper,en_paper
+park,en_park
+party,en_party
+pattycake,en_pattycake
+peanut butter,en_peanut_butter
+peas,en_peas
+peekaboo,en_peekaboo
+pen,en_pen
+pencil,en_pencil
+penguin,en_penguin
+penis*,en_penis
+penny,en_penny
+people,en_people
+person,en_person
+pet's name,en_pets_name
+pick,en_pick
+pickle,en_pickle
+picnic,en_picnic
+picture,en_picture
+pig,en_pig
+pillow,en_pillow
+pizza,en_pizza
+plant,en_plant
+plate,en_plate
+play,en_play
+play dough,en_play_dough
+play pen,en_playpen
+playground,en_playground
+please,en_please
+police,en_police
+pony,en_pony
+pool,en_pool
+poor,en_poor
+popcorn,en_popcorn
+popsicle,en_popsicle
+porch,en_porch
+potato,en_potato
+potato chip,en_potatochip
+potty,en_potty
+pour,en_pour
+present,en_present
+pretend,en_pretend
+pretty,en_pretty
+pretzel,en_pretzel
+pudding,en_pudding
+pull,en_pull
+pumpkin,en_pumpkin
+puppy,en_puppy
+purse,en_purse
+push,en_push
+put,en_put
+puzzle,en_puzzle
+quack quack,en_quack_quack
+quiet,en_quiet
+radio,en_radio
+rain,en_rain
+raisin,en_raisin
+read,en_read
+red,en_red
+refrigerator,en_refrigerator
+ride,en_ride
+rip,en_rip
+rock,en_rock
+rocking chair,en_rocking_chair
+roof,en_roof
+room,en_room
+rooster,en_rooster
+run,en_run
+sad,en_sad
+salt,en_salt
+same,en_same
+sandbox,en_sandbox
+sandwich,en_sandwich
+sauce,en_sauce
+say,en_say
+scared,en_scared
+scarf,en_scarf
+school,en_school
+scissors,en_scissors
+see,en_see
+shake,en_shake
+share,en_share
+she,en_she
+sheep,en_sheep
+shh/shush/hush,en_shh_shush
+shirt,en_shirt
+shoe,en_shoe
+shopping,en_shopping
+shorts,en_shorts
+shoulder,en_shoulder
+shovel,en_shovel
+show,en_show
+shower,en_shower
+sick,en_sick
+sidewalk,en_sidewalk
+sing,en_sing
+sink,en_sink
+sister,en_sister
+sit,en_sit
+skate,en_skate
+sky,en_sky
+sled,en_sled
+sleep,en_sleep
+sleepy,en_sleepy
+slide (action),en_slide_action
+slide (object),en_slide_object
+slipper,en_slipper
+slow,en_slow
+smile,en_smile
+snack,en_snack
+sneaker,en_sneaker
+snow,en_snow
+snowman,en_snowman
+snowsuit,en_snowsuit
+so,en_so
+so big!,en_so_big
+soap,en_soap
+sock,en_sock
+soda/pop,en_soda_pop
+sofa,en_sofa
+soft,en_soft
+some,en_some
+soup,en_soup
+spaghetti,en_spaghetti
+spill,en_spill
+splash,en_splash
+spoon,en_spoon
+sprinkler,en_sprinkler
+squirrel,en_squirrel
+stairs,en_stairs
+stand,en_stand
+star,en_star
+stay,en_stay
+stick,en_stick
+sticky,en_sticky
+stone,en_stone
+stop,en_stop
+store,en_store
+story,en_story
+stove,en_stove
+strawberry,en_strawberry
+street,en_street
+stroller,en_stroller
+stuck,en_stuck
+sun,en_sun
+sweater,en_sweater
+sweep,en_sweep
+swim,en_swim
+swing (action),en_swing_action
+swing (object),en_swing_object
+table,en_table
+take,en_take
+talk,en_talk
+tape,en_tape
+taste,en_taste
+teacher,en_teacher
+tear,en_tear
+teddybear,en_teddy_bear
+telephone/cellphone*,en_telephone
+thank you,en_thank_you
+that,en_that
+the,en_the
+their,en_their
+them,en_them
+then,en_then
+there,en_there
+these,en_these
+they,en_they
+think,en_think
+thirsty,en_thirsty
+this,en_this
+this little piggy,en_this_little_piggy
+those,en_those
+throw,en_throw
+tickle,en_tickle
+tiger,en_tiger
+tights,en_tights
+time,en_time
+tiny,en_tiny
+tired,en_tired
+tissue/kleenex,en_tissue_kleenex
+to,en_to
+toast,en_toast
+today,en_today
+toe,en_toe
+tomorrow,en_tomorrow
+tongue,en_tongue
+tonight,en_tonight
+too,en_too
+tooth,en_tooth
+toothbrush,en_toothbrush
+touch,en_touch
+towel,en_towel
+toy,en_toy
+tractor,en_tractor
+train,en_train
+trash,en_trash
+tray,en_tray
+tree,en_tree
+tricycle,en_tricycle
+truck,en_truck
+try/try to,en_try_try_to
+tummy,en_tummy
+tuna,en_tuna
+turkey,en_turkey
+turn around,en_turn_around
+turtle,en_turtle
+TV,en_TV
+uh oh,en_uh_oh
+uncle*,en_uncle
+under,en_under
+underpants,en_underpants
+up,en_up
+us,en_us
+vacuum,en_vacuum
+vagina*,en_vagina
+vanilla,en_vanilla
+vitamins,en_vitamins
+vroom,en_vroom
+wait,en_wait
+wake,en_wake
+walk,en_walk
+walker,en_walker
+wanna/want to,en_wanna_want_to
+was,en_was
+wash,en_wash
+washing machine,en_washing_machine
+watch (action),en_watch_action
+watch (object),en_watch_object
+water (beverage),en_water_beverage
+water (not beverage),en_water_not_beverage
+we,en_we
+were,en_were
+wet,en_wet
+what,en_what
+when,en_when
+where,en_where
+which,en_which
+white,en_white
+who,en_who
+why,en_why
+will,en_will
+wind,en_wind
+window,en_window
+windy,en_windy
+wipe,en_wipe
+wish,en_wish
+with,en_with
+wolf,en_wolf
+woods,en_woods
+woof woof,en_woof_woof
+work (action),en_work_action
+work (place),en_work_place
+would,en_would
+write,en_write
+yard,en_yard
+yellow,en_yellow
+yes,en_yes
+yesterday,en_yesterday
+yogurt,en_yogurt
+you,en_you
+your,en_your
+yourself,en_yourself
+yucky,en_yucky
+yum yum,en_yum_yum
+zebra,en_zebra
+zipper,en_zipper
+zoo,en_zoo
+does your child ever talk about past events or people who are not present?,discard1
+does your child ever talk about something that's going to happen in the future?,discard2
+does your child talk about objects that are not present?,discard3
+does your child understand if you ask for something that is not in the room?,discard4
+does your child ever pick up or point to an object and name an absent person to whom the object belongs?,discard5
+"To talk about more than one thing we add an “s” to many words. Examples include cars (for more than one car), shoes, dogs and keys. Has your child begun to do this?",discard6
+"To talk about ownership, we add an “'s”, for example, Daddy's key, kitty's dish, and baby's bottle. Has your child begun to do this?",discard7
+"To talk about activities, we sometimes add “ing” to verbs. Examples include looking, running, and crying. Has your child begun to do this?",discard8
+"To talk about things that happened in the past, we often add “ed” to the verb. Examples include kissed, opened, and pushed. Has your child begun to do this?",discard9
+children,discard10
+feet_plural,discard11
+men,discard12
+mice,discard13
+teeth,discard14
+ate,discard15
+blew,discard16
+bought,discard17
+broke,discard18
+came,discard19
+drank,discard20
+drove,discard21
+fell,discard22
+flew,discard23
+got,discard24
+had,discard25
+heard,discard26
+held,discard27
+lost,discard28
+made,discard29
+ran,discard30
+sat,discard31
+saw,discard32
+took,discard33
+went,discard34
+blockses,discard35
+childrens,discard36
+childs,discard37
+feets,discard38
+foots,discard39
+mans,discard40
+mens,discard41
+mices,discard42
+mouses,discard43
+shoeses,discard44
+sockses,discard45
+teeths,discard46
+toeses,discard47
+tooths,discard48
+ated,discard49
+blewed,discard50
+blowed,discard51
+bringed,discard52
+buyed,discard53
+breaked,discard54
+broked,discard55
+camed,discard56
+comed,discard57
+doed,discard58
+dranked,discard59
+drinked,discard60
+eated,discard61
+falled,discard62
+flied,discard63
+getted,discard64
+goed,discard65
+gotted,discard66
+haved,discard67
+heared,discard68
+holded,discard69
+losed,discard70
+losted,discard71
+maked,discard72
+ranned,discard73
+runned,discard74
+seed,discard75
+satted,discard76
+sitted,discard77
+taked,discard78
+wented,discard79
+Has your child begun to combine words yet?,discard80
+item_example1,discard81
+item_example2,discard82
+item_example3,discard83
+two shoe / two shoes,discard84
+two foot / two feet,discard85
+daddy car / daddy's car,discard86
+kitty sleep / kitty sleeping,discard87
+I make tower / I making tower,discard88
+I fall down / I fell down,discard89
+more cookie / more cookies,discard90
+these my tooth / these my teeth,discard91
+baby blanket / baby's blanket,discard92
+doggie kiss me / doggie kissed me,discard93
+daddy pick me up / daddy picked me up,discard94
+kitty go away / kitty went away,discard95
+doggie table / doggie on table,discard96
+that my truck / that's my truck,discard97
+baby crying / baby is crying,discard98
+you fix it / can you fix it,discard99
+"read me story, Mommy / read me a story, Mommy",discard100
+no wash dolly / don't wash dolly,discard101
+want more juice / want juice in there,discard102
+there a kitty / there's a kitty,discard103
+go bye-bye / wanna go bye-bye,discard104
+where mommy go / where did mommy go,discard105
+coffee hot / that coffee hot,discard106
+I no do it / I can't do it,discard107
+I like read stories / I like to read stories,discard108
+don't read book / don't want you read that book,discard109
+turn on light / turn on light so I can see,discard110
+I want that / I want that one you got,discard111
+want cookies / want cookies and milk,discard112
+cookie mommy / cookie for mommy,discard113
+baby want eat / baby want to eat,discard114
+lookit me / lookit me dancing,discard115
+lookit / lookit what I got,discard116
+where's my dolly / where's my dolly name Sam,discard117
+we made this / me and Paul made this,discard118
+I sing song / I sing song for you,discard119
+baby crying / baby crying cuz she's sad,discard120
+Total Produced,discard121
+How Children Use Words,discard122
+Word Endings 1,discard123
+Word Forms 1 Nouns,discard124
+Word Forms 1 Verbs,discard125
+Word Forms 2 Nouns,discard126
+Word Forms 2 Verbs,discard127
+Combining,discard128
+Complexity,discard129
+repeat_num,discard130
+administration_id,discard131
+link,discard132
+completed,discard133
+completedBackgroundInfo,discard134
+due_date,discard135
+last_modified,discard136
+created_date,discard137
+age,discard138
+sex,discard139
+zip_code,discard140
+birth_order,discard141
+birth_weight_lb,discard142
+birth_weight_kg,discard143
+multi_birth_boolean,discard144
+multi_birth,discard145
+born_on_due_date,discard146
+early_or_late,discard147
+due_date_diff,discard148
+mother_yob,discard149
+mother_education,discard150
+father_yob,discard151
+father_education,discard152
+annual_income,discard153
+child_hispanic_latino,discard154
+child_ethnicity,discard155
+caregiver_info,discard156
+other_languages_boolean,discard157
+other_languages,discard158
+language_from,discard159
+language_days_per_week,discard160
+language_hours_per_day,discard161
+ear_infections_boolean,discard162
+ear_infections,discard163
+hearing_loss_boolean,discard164
+hearing_loss,discard165
+vision_problems_boolean,discard166
+vision_problems,discard167
+illnesses_boolean,discard168
+illnesses,discard169
+services_boolean,discard170
+services,discard171
+worried_boolean,discard172
+worried,discard173
+learning_disability_boolean,discard174
+learning_disability,discard175
