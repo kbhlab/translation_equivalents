@@ -9,12 +9,12 @@ t_equivs <- function(en_data, fr_data) {
 if(ncol(en_data) < 600) {
 #WORDS AND GESTURES:
               
-lookup_en_colnames <- read_csv("wg_lookup_en_colnames.csv") #this is the lookup table for renaming the English data columns from Web CDI
+lookup_en_colnames <- read_csv("https://github.com/kbhlab/translation_equivalents/raw/master/wg_lookup_en_colnames.csv") #this is the lookup table for renaming the English data columns from Web CDI
 
-lookup_fr_colnames <- read_csv("wg_lookup_fr_colnames.csv") #this is the lookup table for renaming the French data columns from Web CDI (CAUTION: currently Web CDI French data download column names have duplicates that must be changed manually before this code can work correctly)
+lookup_fr_colnames <- read_csv("https://github.com/kbhlab/translation_equivalents/raw/master/wg_lookup_fr_colnames.csv") #this is the lookup table for renaming the French data columns from Web CDI (CAUTION: currently Web CDI French data download column names have duplicates that must be changed manually before this code can work correctly)
 
-TE_IDs_en <- read_csv("wg_lookup_TE_IDs_en.csv") #this is the lookup table for merging English data with TE IDs
-TE_IDs_fr <- read_csv("wg_lookup_TE_IDs_fr.csv") #this is the lookup table for merging French data with TE IDs
+TE_IDs_en <- read_csv("https://github.com/kbhlab/translation_equivalents/raw/master/ws_lookup_TE_IDs_en.csv") #this is the lookup table for merging English data with TE IDs
+TE_IDs_fr <- read_csv("https://github.com/kbhlab/translation_equivalents/raw/master/wg_lookup_TE_IDs_fr.csv") #this is the lookup table for merging French data with TE IDs
 
 #change column names and select only relevant columns for calculating TE score:
 
@@ -86,12 +86,12 @@ TEs_matching <- full_join(TE_IDs_en, TE_IDs_fr, by = "TE_ID")
 
 #WORDS AND SENTENCES:
 
-lookup_en_colnames <- read_csv("ws_lookup_en_colnames.csv") #this is the lookup table for renaming the English data columns from Web CDI
+lookup_en_colnames <- read_csv("https://github.com/kbhlab/translation_equivalents/raw/master/ws_lookup_en_colnames.csv") #this is the lookup table for renaming the English data columns from Web CDI
 
-lookup_fr_colnames <- read_csv("ws_lookup_fr_colnames.csv") #this is the lookup table for renaming the French data columns from Web CDI (CAUTION: currently Web CDI French data download column names have duplicates that must be changed manually before this code can work correctly)
+lookup_fr_colnames <- read_csv("https://github.com/kbhlab/translation_equivalents/raw/master/ws_lookup_fr_colnames.csv") #this is the lookup table for renaming the French data columns from Web CDI (CAUTION: currently Web CDI French data download column names have duplicates that must be changed manually before this code can work correctly)
 
-TE_IDs_en <- read_csv("ws_lookup_TE_IDs_en.csv") #this is the lookup table for merging English data with TE IDs
-TE_IDs_fr <- read_csv("ws_lookup_TE_IDs_fr.csv") #this is the lookup table for merging French data with TE IDs
+TE_IDs_en <- read_csv("https://github.com/kbhlab/translation_equivalents/raw/master/ws_lookup_TE_IDs_en.csv") #this is the lookup table for merging English data with TE IDs
+TE_IDs_fr <- read_csv("https://github.com/kbhlab/translation_equivalents/raw/master/ws_lookup_TE_IDs_fr.csv") #this is the lookup table for merging French data with TE IDs
 
 
 #change column names and select only relevant columns for calculating TE score:
@@ -144,4 +144,15 @@ avg_TEs <- prod_TEs %>% summarize(avg_prod_TE = mean(prod_TE_score),
 print(avg_TEs)
 }
 }
+
+
+devtools::source_url("https://github.com/kbhlab/translation_equivalents/raw/master/t_equivs_function.R")
+
+eng <- read_csv("Y:/Lab Members/Hilary Killam/Translation Equivalents/t_equivs_function/segment8_en_web_cdi_data.csv")
+fre <- read_csv("Y:/Lab Members/Hilary Killam/Translation Equivalents/t_equivs_function/segment8_fr_web_cdi_data.csv")
+
+# eng <- read_csv("ws_en_all_yes.csv")
+# fre <- read_csv("ws_fr_all_yes.csv")
+
+t_equivs(eng, fre)
 
