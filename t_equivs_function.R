@@ -2,10 +2,6 @@ library(tidyverse)
 
 t_equivs <- function(en_data, fr_data) {
   
-# case_when(questionnaire == "words_gestures" ~ words_gestures,
-#           questionnaire == "words_sentences" ~ words_sentences,
-#           TRUE ~ print("Error - questionnaire not properly defined"))
-            
 if(ncol(en_data) < 600) {
 #WORDS AND GESTURES:
               
