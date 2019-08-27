@@ -6,12 +6,12 @@ t_equivs <- function(en_data, fr_data) {
     #WORDS AND GESTURES:
     
     #rename problematic french data columns:
-    colnames(fr_data)[120] <- "poisson_animal"
-    colnames(fr_data)[155] <- "eau_beverage"
-    colnames(fr_data)[167] <- "poisson_food"
-    colnames(fr_data)[212] <- "bain_object"
-    colnames(fr_data)[277] <- "eau_not_beverage"
-    colnames(fr_data)[315] <- "bain_routine"
+    #colnames(fr_data)[120] <- "poisson_animal"
+    #colnames(fr_data)[155] <- "eau_beverage"
+    #colnames(fr_data)[167] <- "poisson_food"
+    #colnames(fr_data)[212] <- "bain_object"
+    #colnames(fr_data)[277] <- "eau_not_beverage"
+    #colnames(fr_data)[315] <- "bain_routine"
     
     lookup_en_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_en_colnames.csv") #this is the lookup table for renaming the English data columns from Web CDI
     
