@@ -157,7 +157,6 @@ t_equivs <- function(en_data, fr_data) {
     
     prod_TEs <- en_fr_together %>% group_by(baby_id) %>% summarize(prod_TE_score = sum(prod_TE_score, na.rm = TRUE))
     
-    print(prod_TEs)
     
     #calculate overall average TE scores & summary stats:
     
