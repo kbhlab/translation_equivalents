@@ -1,12 +1,7 @@
 
 
 t_equivs <- function(en_data, fr_data, output = "by_baby") {
-
-  case_when(
-    ncol(en_data) != 555 & ncol(en_data) != 858 & ncol(fr_data) != 572 & ncol(fr_data) != 815 ~ return("Warning: your input data must be in the format of 'CSV/ALL' from WebCDI!"),
-    TRUE ~ return("Data format okay")
-    )
-
+  
   if(ncol(en_data) < 600) {
     
     #WORDS AND GESTURES:
