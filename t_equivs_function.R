@@ -79,10 +79,12 @@ t_equivs <- function(en_data, fr_data) {
                                        max_total_TE = max(total_TE_score)
     )
     
-    return(list(total_TEs, avg_TEs))
+    output <- list(total_TEs, avg_TEs)
+    return(output)
     
     #for checking the TE correspondence between FR & EN to verify correct matching:
-    TEs_matching <- full_join(TE_IDs_en, TE_IDs_fr, by = "TE_ID")
+    #TEs_matching <- full_join(TE_IDs_en, TE_IDs_fr, by = "TE_ID")
+    
   } else if(ncol(en_data) > 600) {
     
     
