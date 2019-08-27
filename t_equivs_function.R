@@ -1,10 +1,16 @@
-library(tidyverse)
 
-t_equivs <- function(en_data, fr_data) {
-  
+
+function(en_data, fr_data, output = "by_baby") {
+
+  case_when(
+    ncol(en_data) != 555 & ncol(en_data) != 858 & ncol(fr_data) != 572 & ncol(fr_data) != 815 ~ "Warning: your input data must be in the format of 'CSV/ALL' from WebCDI!",
+    TRUE ~ "Data format okay"
+    )
+
   if(ncol(en_data) < 600) {
-    #WORDS AND GESTURES:
     
+    #WORDS AND GESTURES:
+  
     #rename problematic french data columns:
     names(fr_data)[120] <- "poisson_animal"
     names(fr_data)[155] <- "eau_beverage"
@@ -79,8 +85,13 @@ t_equivs <- function(en_data, fr_data) {
                                        max_total_TE = max(total_TE_score)
     )
     
-    output <- list(total_TEs, avg_TEs)
-    return(output)
+    if(output == "by_baby") {
+      return(total_TEs)
+      print("Outputting TE scores by baby ID. If you would like to see summary scores, please set argument output = 'summary'")
+    } else if(output == "summary") {
+      return(avg_TEs)
+      print("Outputting TE summary scores. If you would like to see TE scores by baby ID, please set argument output = 'by_baby'")
+    }
     
     #for checking the TE correspondence between FR & EN to verify correct matching:
     #TEs_matching <- full_join(TE_IDs_en, TE_IDs_fr, by = "TE_ID")
@@ -164,7 +175,13 @@ t_equivs <- function(en_data, fr_data) {
                                       min_prod_TE = min(prod_TE_score),
                                       max_prod_TE = max(prod_TE_score)
     )
-    output <- list(prod_TEs, avg_TEs)
-    return(output)
+    
+    if(output == "by_baby") {
+      return(prod_TEs)
+      print("Outputting TE scores by baby ID. If you would like to see summary scores, please set argument output = 'summary'")
+    } else if(output == "summary") {
+      return(avg_TEs)
+      print("Outputting TE summary scores. If you would like to see TE scores by baby ID, please set argument output = 'by_baby'")
+    }    
   }
 }
