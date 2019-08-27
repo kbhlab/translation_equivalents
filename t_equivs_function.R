@@ -97,7 +97,7 @@ t_equivs <- function(en_data, fr_data) {
     names(fr_data)[302] <- "bain_object"
     names(fr_data)[344] <- "eau_not_beverage"
     names(fr_data)[419] <- "bain_routine"
-    names(fr_date)[96] <- "poulet_animal"
+    names(fr_data)[96] <- "poulet_animal"
     names(fr_data)[186] <- "poulet_food"
     names(fr_data)[288] <- "pot_jar"
     names(fr_data)[328] <- "pot_potty"
