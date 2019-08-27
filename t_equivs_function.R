@@ -90,6 +90,26 @@ t_equivs <- function(en_data, fr_data) {
     
     #WORDS AND SENTENCES:
     
+    #rename problematic data columns:
+    names(fr_data)[94] <- "poisson_animal"
+    names(fr_data)[158] <- "eau_beverage"
+    names(fr_data)[181] <- "poisson_food"
+    names(fr_data)[302] <- "bain_object"
+    names(fr_data)[344] <- "eau_not_beverage"
+    names(fr_data)[419] <- "bain_routine"
+    names(fr_date)[96] <- "poulet_animal"
+    names(fr_data)[186] <- "poulet_food"
+    names(fr_data)[288] <- "pot_jar"
+    names(fr_data)[328] <- "pot_potty"
+    names(fr_data)[119] <- "baton_bat"
+    names(fr_data)[339] <- "baton_stick"
+    names(fr_data)[175] <- "orange_food"
+    names(fr_data)[593] <- "orange_colour"
+    names(fr_data)[723] <- "fin_is_1"
+    names(fr_data)[737] <- "fin_is_2"
+    names(fr_data)[733] <- "fini2"
+    names(en_data)[740] <- "feet_plural"
+    
     lookup_en_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_en_colnames.csv") #this is the lookup table for renaming the English data columns from Web CDI
     
     lookup_fr_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_fr_colnames.csv") #this is the lookup table for renaming the French data columns from Web CDI (CAUTION: currently Web CDI French data download column names have duplicates that must be changed manually before this code can work correctly)
@@ -145,6 +165,7 @@ t_equivs <- function(en_data, fr_data) {
                                       min_prod_TE = min(prod_TE_score),
                                       max_prod_TE = max(prod_TE_score)
     )
-    print(avg_TEs)
+    output <- list(prod_TEs, avg_TEs)
+    return(output)
   }
 }
