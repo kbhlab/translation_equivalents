@@ -66,8 +66,6 @@ t_equivs <- function(en_data, fr_data) {
     total_TEs <- full_join(comp_TEs, prod_TEs, by = "baby_id")
     total_TEs <- total_TEs %>% mutate(total_TE_score = comp_TE_score + prod_TE_score)
     
-    print(total_TEs)
-    
     #calculate overall average TE scores & summary stats:
     
     avg_TEs <- total_TEs %>% summarize(avg_comp_TE = mean(comp_TE_score),
@@ -81,7 +79,7 @@ t_equivs <- function(en_data, fr_data) {
                                        max_total_TE = max(total_TE_score)
     )
     
-    print(avg_TEs)
+    return(list(total_TEs, avg_TEs))
     
     #for checking the TE correspondence between FR & EN to verify correct matching:
     TEs_matching <- full_join(TE_IDs_en, TE_IDs_fr, by = "TE_ID")
