@@ -1,7 +1,12 @@
 
 
 t_equivs <- function(en_data, fr_data, output = "by_baby") {
-  
+
+  case_when(
+    ncol(en_data) != 555 & ncol(en_data) != 858 & ncol(fr_data) != 572 & ncol(fr_data) != 815 ~ stop("Warning: your input data must be in the format of 'CSV/ALL' from WebCDI!"),
+    TRUE ~ warning("Data format okay")
+    )
+
   if(ncol(en_data) < 600) {
     
     #WORDS AND GESTURES:
@@ -82,10 +87,10 @@ t_equivs <- function(en_data, fr_data, output = "by_baby") {
     
     if(output == "by_baby") {
       return(total_TEs)
-      print("Outputting TE scores by baby ID. If you would like to see summary scores, please set argument output = 'summary'")
+      warning("Outputting TE scores by baby ID. If you would like to see summary scores, please set argument output = 'summary'")
     } else if(output == "summary") {
       return(avg_TEs)
-      print("Outputting TE summary scores. If you would like to see TE scores by baby ID, please set argument output = 'by_baby'")
+      warning("Outputting TE summary scores. If you would like to see TE scores by baby ID, please set argument output = 'by_baby'")
     }
     
     #for checking the TE correspondence between FR & EN to verify correct matching:
@@ -173,10 +178,10 @@ t_equivs <- function(en_data, fr_data, output = "by_baby") {
     
     if(output == "by_baby") {
       return(prod_TEs)
-      print("Outputting TE scores by baby ID. If you would like to see summary scores, please set argument output = 'summary'")
+      warning("Outputting TE scores by baby ID. If you would like to see summary scores, please set argument output = 'summary'")
     } else if(output == "summary") {
       return(avg_TEs)
-      print("Outputting TE summary scores. If you would like to see TE scores by baby ID, please set argument output = 'by_baby'")
+      warning("Outputting TE summary scores. If you would like to see TE scores by baby ID, please set argument output = 'by_baby'")
     }    
   }
 }
