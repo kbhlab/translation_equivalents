@@ -148,14 +148,3 @@ t_equivs <- function(en_data, fr_data) {
     print(avg_TEs)
   }
 }
-
-
-devtools::source_url("https://github.com/kbhlab/translation_equivalents/raw/master/t_equivs_function.R")
-
-eng <- read_csv("Y:/Lab Members/Hilary Killam/Translation Equivalents/t_equivs_function/segment8_en_web_cdi_data.csv")
-fre <- read_csv("Y:/Lab Members/Hilary Killam/Translation Equivalents/t_equivs_function/segment8_fr_web_cdi_data.csv")
-
-# eng <- read_csv("ws_en_all_yes.csv")
-# fre <- read_csv("ws_fr_all_yes.csv")
-
-t_equivs(eng, fre)
