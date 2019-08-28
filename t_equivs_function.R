@@ -1,11 +1,19 @@
 
 
 t_equivs <- function(en_data, fr_data, output = "by_baby") {
+  
+  if(!(ncol(en_data) == 555 || ncol(en_data) == 858 )) 
+         stop("Error: English data input must be in csv from WebCDI download 'CSV/ALL'")
+  if(!(ncol(fr_data) == 576 || ncol(fr_data) == 815 )) 
+    stop("Error: French data input must be in csv from WebCDI download 'CSV/ALL'")
 
+  message_summary <- "\n* * * * * \nOutputting TE summary scores for your whole dataset. If you would like to see TE scores by baby ID, please set argument output = 'by_baby'\n\n* * * * *"
+  message_by_baby <- "\n* * * * * \nOutputting TE scores by baby ID. If you would like to see summary TE scores, please set argument output = 'summary'\n\n* * * * *"
+  
   if(ncol(en_data) < 600) {
     
     #WORDS AND GESTURES:
-  
+    
     #rename problematic french data columns:
     names(fr_data)[120] <- "poisson_animal"
     names(fr_data)[155] <- "eau_beverage"
@@ -14,12 +22,16 @@ t_equivs <- function(en_data, fr_data, output = "by_baby") {
     names(fr_data)[277] <- "eau_not_beverage"
     names(fr_data)[315] <- "bain_routine"
     
-    lookup_en_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_en_colnames.csv") #this is the lookup table for renaming the English data columns from Web CDI
+    lookup_en_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_en_colnames.csv", 
+                                   col_types = cols(.default = col_character())) #this is the lookup table for renaming the English data columns from Web CDI
     
-    lookup_fr_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_fr_colnames.csv") #this is the lookup table for renaming the French data columns from Web CDI (CAUTION: currently Web CDI French data download column names have duplicates that must be changed manually before this code can work correctly)
+    lookup_fr_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_fr_colnames.csv",
+                                   col_types = cols(.default = col_character())) #this is the lookup table for renaming the French data columns from Web CDI (CAUTION: currently Web CDI French data download column names have duplicates that must be changed manually before this code can work correctly)
     
-    TE_IDs_en <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_TE_IDs_en.csv") #this is the lookup table for merging English data with TE IDs
-    TE_IDs_fr <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_TE_IDs_fr.csv") #this is the lookup table for merging French data with TE IDs
+    TE_IDs_en <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_TE_IDs_en.csv",
+                          col_types = cols(.default = col_character())) #this is the lookup table for merging English data with TE IDs
+    TE_IDs_fr <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_TE_IDs_fr.csv",
+                          col_types = cols(.default = col_character())) #this is the lookup table for merging French data with TE IDs
     
     #change column names and select only relevant columns for calculating TE score:
     
@@ -58,14 +70,35 @@ t_equivs <- function(en_data, fr_data, output = "by_baby") {
       TRUE ~ 0
     ))
     
+    #add lang score columns:
+    
+    en_fr_together <- en_fr_together %>% mutate(en_score = case_when(
+      knowledge_en == "produces" | knowledge_en == "understands" ~ 1,
+      TRUE ~ 0
+    ))
+    
+    en_fr_together <- en_fr_together %>% mutate(fr_score = case_when(
+      knowledge_fr == "produces" | knowledge_fr == "understands" ~ 1,
+      TRUE ~ 0
+    ))
+    
     #calculate summary TE scores for each baby:
     
     comp_TEs <- en_fr_together %>% group_by(baby_id) %>% summarize(comp_TE_score = sum(comp_TE_score, na.rm = TRUE))
     
     prod_TEs <- en_fr_together %>% group_by(baby_id) %>% summarize(prod_TE_score = sum(prod_TE_score, na.rm = TRUE))
     
-    total_TEs <- full_join(comp_TEs, prod_TEs, by = "baby_id")
+    en_words <- en_fr_together %>% group_by(baby_id) %>% summarize(en_words = sum(en_score, na.rm = TRUE))
+
+    fr_words <- en_fr_together %>% group_by(baby_id) %>% summarize(fr_words = sum(fr_score, na.rm = TRUE))
+    
+    lang_scores <- full_join(en_words, fr_words, by = "baby_id")
+    
+        
+    total_TEs <- full_join(comp_TEs, prod_TEs, by = "baby_id") 
     total_TEs <- total_TEs %>% mutate(total_TE_score = comp_TE_score + prod_TE_score)
+    
+    total_TEs <- full_join(total_TEs, lang_scores, by = "baby_id")
     
     #calculate overall average TE scores & summary stats:
     
@@ -77,15 +110,17 @@ t_equivs <- function(en_data, fr_data, output = "by_baby") {
                                        max_prod_TE = max(prod_TE_score),
                                        avg_total_TE = mean(total_TE_score),
                                        min_total_TE = min(total_TE_score),
-                                       max_total_TE = max(total_TE_score)
+                                       max_total_TE = max(total_TE_score),
+                                       avg_en_words = mean(en_words),
+                                       avg_fr_words = mean(fr_words)
     )
     
     if(output == "by_baby") {
+      message(message_by_baby)
       return(total_TEs)
-      warning("Outputting TE scores by baby ID. If you would like to see summary scores, please set argument output = 'summary'")
-    } else if(output == "summary") {
-      return(avg_TEs)
-      warning("Outputting TE summary scores. If you would like to see TE scores by baby ID, please set argument output = 'by_baby'")
+      } else if(output == "summary") {
+        message(message_summary)
+        return(avg_TEs)
     }
     
     #for checking the TE correspondence between FR & EN to verify correct matching:
@@ -116,12 +151,19 @@ t_equivs <- function(en_data, fr_data, output = "by_baby") {
     names(fr_data)[733] <- "fini2"
     names(en_data)[740] <- "feet_plural"
     
-    lookup_en_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_en_colnames.csv") #this is the lookup table for renaming the English data columns from Web CDI
+    en_data <- en_data %>% select(1:3, `baa baa`:then)
+    fr_data <- fr_data %>% select(1:3, learning_disability:si)
     
-    lookup_fr_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_fr_colnames.csv") #this is the lookup table for renaming the French data columns from Web CDI (CAUTION: currently Web CDI French data download column names have duplicates that must be changed manually before this code can work correctly)
-    
-    TE_IDs_en <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_TE_IDs_en.csv") #this is the lookup table for merging English data with TE IDs
-    TE_IDs_fr <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_TE_IDs_fr.csv") #this is the lookup table for merging French data with TE IDs
+    lookup_en_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_en_colnames.csv",
+                                    col_types = cols(.default = col_character())) #this is the lookup table for renaming the English data columns from Web CDI
+     
+    lookup_fr_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_fr_colnames.csv",
+                                    col_types = cols(.default = col_character())) #this is the lookup table for renaming the French data columns from Web CDI (CAUTION: currently Web CDI French data download column names have duplicates that must be changed manually before this code can work correctly)
+     
+    TE_IDs_en <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_TE_IDs_en.csv",
+                          col_types = cols(.default = col_character())) #this is the lookup table for merging English data with TE IDs
+    TE_IDs_fr <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_TE_IDs_fr.csv",
+                          col_types = cols(.default = col_character())) #this is the lookup table for merging French data with TE IDs
     
     
     #change column names and select only relevant columns for calculating TE score:
@@ -158,25 +200,46 @@ t_equivs <- function(en_data, fr_data, output = "by_baby") {
       TRUE ~ 0
     ))
     
+    #add lang score columns:
+    
+    en_fr_together <- en_fr_together %>% mutate(en_score = case_when(
+      knowledge_en == "produces" | knowledge_en == "understands" ~ 1,
+      TRUE ~ 0
+    ))
+    
+    en_fr_together <- en_fr_together %>% mutate(fr_score = case_when(
+      knowledge_fr == "produces" | knowledge_fr == "understands" ~ 1,
+      TRUE ~ 0
+    ))
     
     #calculate summary TE scores for each baby:
     
     prod_TEs <- en_fr_together %>% group_by(baby_id) %>% summarize(prod_TE_score = sum(prod_TE_score, na.rm = TRUE))
+    
+    en_words <- en_fr_together %>% group_by(baby_id) %>% summarize(en_words = sum(en_score, na.rm = TRUE))
+    
+    fr_words <- en_fr_together %>% group_by(baby_id) %>% summarize(fr_words = sum(fr_score, na.rm = TRUE))
+    
+    lang_scores <- full_join(en_words, fr_words, by = "baby_id")
+    
+    prod_TEs <- full_join(prod_TEs, lang_scores, by = "baby_id")
     
     
     #calculate overall average TE scores & summary stats:
     
     avg_TEs <- prod_TEs %>% summarize(avg_prod_TE = mean(prod_TE_score),
                                       min_prod_TE = min(prod_TE_score),
-                                      max_prod_TE = max(prod_TE_score)
+                                      max_prod_TE = max(prod_TE_score),
+                                      avg_en_words = mean(en_words),
+                                      avg_fr_words = mean(fr_words)
     )
     
     if(output == "by_baby") {
+      message(message_by_baby)
       return(prod_TEs)
-      warning("Outputting TE scores by baby ID. If you would like to see summary scores, please set argument output = 'summary'")
     } else if(output == "summary") {
+      message(message_summary)
       return(avg_TEs)
-      warning("Outputting TE summary scores. If you would like to see TE scores by baby ID, please set argument output = 'by_baby'")
     }    
   }
 }
