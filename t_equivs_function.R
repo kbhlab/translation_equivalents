@@ -1,4 +1,4 @@
-
+#function developed by Hilary Killam, August 2019
 
 t_equivs <- function(en_data, fr_data, output = "by_baby") {
   
