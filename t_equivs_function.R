@@ -119,7 +119,10 @@ t_equivs <- function(en_data, fr_data, output = "by_baby") {
                                        max_en_words = max(en_words),
                                        avg_fr_words = mean(fr_words),
                                        min_fr_words = min(fr_words),
-                                       max_fr_words = max(fr_words)
+                                       max_fr_words = max(fr_words),
+                                       avg_total_vocab = mean(total_vocab),
+                                       min_total_vocab = min(total_vocab),
+                                       max_total_vocab = max(total_vocab)
     )
     
     if(output == "by_baby") {
@@ -244,7 +247,10 @@ t_equivs <- function(en_data, fr_data, output = "by_baby") {
                                       max_en_words = max(en_words),
                                       avg_fr_words = mean(fr_words),
                                       min_fr_words = min(fr_words),
-                                      max_fr_words = max(fr_words)
+                                      max_fr_words = max(fr_words),
+                                      avg_total_vocab = mean(total_vocab),
+                                      min_total_vocab = min(total_vocab),
+                                      max_total_vocab = max(total_vocab)
     )
     
     if(output == "by_baby") {
