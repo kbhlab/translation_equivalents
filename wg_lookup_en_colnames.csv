@@ -4,18 +4,18 @@ subject_id,baby_id
 local_lab_id,recording_name
 airplane,en_airplane
 all,en_all
-all gone,en_all_gone
+allgone,en_all_gone
 animal,en_animal
 another,en_another
 apple,en_apple
 arm,en_arm
 asleep,en_asleep
-aunt*,en_aunt
+aunt,en_aunt
 away,en_away
-baa baa,en_baa_baa
+baa_baa,en_baa_baa
 baby,en_baby
 babysitter,en_babysitter
-babysitter's name,en_babysitter_name
+babysitter_name,en_babysitter_name
 back,en_back
 backyard,en_backyard
 bad,en_bad
@@ -31,7 +31,7 @@ bear,en_bear
 bed,en_bed
 bedroom,en_bedroom
 bee,en_bee
-belly button,en_belly_button
+belly_button,en_belly_button
 bib,en_bib
 bicycle,en_bicycle
 big,en_big
@@ -75,14 +75,14 @@ chair,en_chair
 cheek,en_cheek
 cheerios,en_cheerios
 cheese,en_cheese
-chicken (animal),en_chicken_animal
-chicken (food),en_chicken_food
+chicken.animal,en_chicken_animal
+chicken.food,en_chicken_food
 child,en_child
-child's own name,en_child_own_name
-choo choo,en_choo_choo
-church*,en_church
-clean (action),en_clean_action
-clean (description),en_clean_description
+child_own_name,en_child_own_name
+choo_choo,en_choo_choo
+church,en_church
+clean.action,en_clean_action
+clean.description,en_clean_description
 clock,en_clock
 close,en_close
 coat,en_coat
@@ -98,7 +98,7 @@ crib,en_crib
 cry,en_cry
 cup,en_cup
 cute,en_cute
-daddy*,en_daddy
+daddy,en_daddy
 dance,en_dance
 dark,en_dark
 day,en_day
@@ -110,16 +110,16 @@ dish,en_dish
 dog,en_dog
 doll,en_doll
 donkey,en_donkey
-don't,en_dont
+dont,en_dont
 door,en_door
 down,en_down
 draw,en_draw
 drawer,en_drawer
 dress,en_dress
-drink (action),en_drink_action
-drink (beverage),en_drink_beverage
+drink.action,en_drink_action
+drink.beverage,en_drink_beverage
 drive,en_drive
-dry (description),en_dry_description
+dry,en_dry_description
 duck,en_duck
 ear,en_ear
 eat,en_eat
@@ -135,8 +135,8 @@ fine,en_fine
 finger,en_finger
 finish,en_finish
 firetruck,en_firetruck
-fish (animal),en_fish_animal
-fish (food),en_fish_food
+fish.animal,en_fish_animal
+fish.food,en_fish_food
 flower,en_flower
 food,en_food
 foot,en_foot
@@ -154,8 +154,8 @@ glasses,en_glasses
 go,en_go
 good,en_good
 goose,en_goose
-grandma*,en_grandma
-grandpa*,en_grandpa
+grandma,en_grandma
+grandpa,en_grandpa
 grrr,en_grrr
 hair,en_hair
 hammer,en_hammer
@@ -168,7 +168,7 @@ hello,en_hello
 help,en_help
 her,en_her
 hi,en_hi
-high chair,en_high_chair
+high_chair,en_high_chair
 his,en_his
 hit,en_hit
 home,en_home
@@ -180,8 +180,8 @@ hug,en_hug
 hungry,en_hungry
 hurry,en_hurry
 hurt,en_hurt
-I,en_i
-ice cream,en_ice_cream
+i,en_i
+ice_cream,en_ice_cream
 in,en_in
 inside,en_inside
 it,en_it
@@ -202,8 +202,8 @@ later,en_later
 leg,en_leg
 light,en_light
 lion,en_lion
-little (description),en_little_description
-living room,en_living_room
+little,en_little_description
+living_room,en_living_room
 look,en_look
 love,en_love
 lunch,en_lunch
@@ -214,7 +214,7 @@ medicine,en_medicine
 meow,en_meow
 milk,en_milk
 mine,en_mine
-mommy*,en_mommy
+mommy,en_mommy
 money,en_money
 monkey,en_monkey
 moo,en_moo
@@ -230,7 +230,7 @@ naughty,en_naughty
 necklace,en_necklace
 nice,en_nice
 night,en_night
-night night,en_night_night
+nightnight,en_night_night
 no,en_no
 none,en_none
 noodles,en_noodles
@@ -241,13 +241,13 @@ off,en_off
 old,en_old
 on,en_on
 open,en_open
-orange (food),en_orange_food
+orange,en_orange_food
 other,en_other
 ouch,en_ouch
 out,en_out
 outside,en_outside
 oven,en_oven
-owie/boo boo,en_owie_booboo
+owie,en_owie_booboo
 owl,en_owl
 pajamas,en_pajamas
 pants,en_pants
@@ -269,7 +269,7 @@ pizza,en_pizza
 plant,en_plant
 plate,en_plate
 play,en_play
-play pen,en_play_pen
+play_pen,en_play_pen
 please,en_please
 pony,en_pony
 pool,en_pool
@@ -280,7 +280,7 @@ puppy,en_puppy
 purse,en_purse
 push,en_push
 put,en_put
-quack quack,en_quack_quack
+quack_quack,en_quack_quack
 radio,en_radio
 rain,en_rain
 raisin,en_raisin
@@ -289,7 +289,7 @@ red,en_red
 refrigerator,en_refrigerator
 ride,en_ride
 rock,en_rock
-rocking chair,en_rocking_chair
+rocking_chair,en_rocking_chair
 run,en_run
 same,en_same
 say,en_say
@@ -298,7 +298,7 @@ school,en_school
 scissors,en_scissors
 see,en_see
 sheep,en_sheep
-shh/shush/hush,en_shh
+shh,en_shh
 shirt,en_shirt
 shoe,en_shoe
 shorts,en_shorts
@@ -311,7 +311,7 @@ sister,en_sister
 sky,en_sky
 sleep,en_sleep
 sleepy,en_sleepy
-slide (object),en_slide_object
+slide,en_slide_object
 smile,en_smile
 snow,en_snow
 soap,en_soap
@@ -331,14 +331,14 @@ stroller,en_stroller
 sun,en_sun
 sweater,en_sweater
 swim,en_swim
-swing (action),en_swing_action
-swing (object),en_swing_object
+swing.action,en_swing_action
+swing.object,en_swing_object
 table,en_table
 take,en_take
 teacher,en_teacher
 teddybear,en_teddybear
-telephone/cellphone*,en_telephone_cellphone
-thank you,en_thank_you
+telephone,en_telephone_cellphone
+thank_you,en_thank_you
 that,en_that
 there,en_there
 thirsty,en_thirsty
@@ -365,21 +365,21 @@ truck,en_truck
 tummy,en_tummy
 turkey,en_turkey
 turtle,en_turtle
-TV,en_TV
-uh oh,en_uh_oh
-uncle*,en_uncle
+tv,en_TV
+uh_oh,en_uh_oh
+uncle,en_uncle
 under,en_under
 up,en_up
 vacuum,en_vacuum
 vroom,en_vroom
 wait,en_wait
 walk,en_walk
-wanna/want to,en_wanna_want_to
+wanna,en_wanna_want_to
 wash,en_wash
-watch (action),en_watch_action
-watch (object),en_watch_object
-water (beverage),en_water_beverage
-water (not beverage),en_water_not_beverage
+watch.action,en_watch_action
+watch.object,en_watch_object
+water.beverage,en_water_beverage
+water.not_beverage,en_water_not_beverage
 wet,en_wet
 what,en_what
 when,en_when
@@ -388,14 +388,14 @@ who,en_who
 why,en_why
 window,en_window
 wipe,en_wipe
-woof woof,en_woof_woof
-work (place),en_work_place
+woof_woof,en_woof_woof
+work,en_work_place
 write,en_write
 yes,en_yes
 you,en_you
 your,en_your
 yucky,en_yucky
-yum yum,en_yum_yum
+yum_yum,en_yum_yum
 zipper,en_zipper
 zoo,en_zoo
 repeat_num,discard1
@@ -444,102 +444,102 @@ worried_boolean,discard43
 worried,discard44
 learning_disability_boolean,discard45
 learning_disability,discard46
-"Respond when name is called (e.g., by turning and looking at source).",discard47
-"Respond to ""no no"" (by stopping what he/she is doing, at least for a moment).",discard48
-"React to ""there's mommy/daddy"" by looking around for them.",discard49
-Are you hungry?,discard50
-Are you tired/sleepy?,discard51
-Be careful.,discard52
-Be quiet.,discard53
-Clap your hands.,discard54
-Change diaper.,discard55
-Come here/come on.,discard56
-Daddy's/mommy's home.,discard57
-Do you want more?,discard58
-Don't do that.,discard59
-Don't touch.,discard60
-Get up.,discard61
-Give it to mommy.,discard62
-Give me a hug.,discard63
-Give me a kiss.,discard64
-Go get ___.,discard65
-Good girl/boy.,discard66
-Hold still.,discard67
-Let's go bye bye.,discard68
-Look/look here.,discard69
-Open your mouth.,discard70
-Sit down.,discard71
-Spit it out.,discard72
-Stop it.,discard73
-Time to go night night.,discard74
-Throw the ball.,discard75
-This little piggy.,discard76
-Want to go for a ride?,discard77
-"Some children like to ""parrot"" or imitate things that they've just heard (including new words that they are just learning, and/or parts of sentences, for example, repeating ""work now"" after mother says ""Mommy's going to work now."") How often does your children imitate words?",discard78
-"Some children like to go around naming or labeling things, as though proud of knowing the names and wanting to show this. How often does your child do this?",discard79
-Extends arm to show you something he/she is holding.,discard80
-Reaches out and gives you a toy or some object that he/she is holding.,discard81
-Points (with arm and index finger extended) at some interesting object or event.,discard82
-Waves bye-bye on his/her own when someone leaves.,discard83
-Extends his/her arm upward to signal a wish to be picked up.,discard84
-"Shakes head ""no.""",discard85
-"Nods head ""yes.""",discard86
-"Gestures ""hush"" by placing finger to lips.",discard87
-Requests something by extending arm and opening and closing hand.,discard88
-Blows kisses from a distance.,discard89
-"Smacks lips in a ""yum yum"" gesture to indicate that something tastes good.",discard90
-"Shrugs to indicate ""all gone"" or ""where'd it go.""",discard91
-Play peekaboo.,discard92
-Play patty cake.,discard93
-"Play ""so big.""",discard94
-Play chasing games.,discard95
-Sing.,discard96
-Dance.,discard97
-Eat with spoon or fork.,discard98
-Drink from a cup containing liquid.,discard99
-Comb or brush own hair.,discard100
-Brush teeth.,discard101
-Wipe face or hands with a towel or cloth.,discard102
-Put on hat.,discard103
-Put on shoe or sock.,discard104
-"Put on necklace, bracelet or watch.",discard105
-Lay head on hands and squeeze eyes shut as if sleeping.,discard106
-Blow to indicate something is hot.,discard107
-"Hold plane and make it ""fly.""",discard108
-Put telephone to ear.,discard109
-Sniff flowers.,discard110
-Push toy car or truck.,discard111
-Throw a ball.,discard112
-Pour pretend liquid from one container to another.,discard113
-Stir pretend liquid in a cup or pan with a spoon.,discard114
-Put to bed.,discard115
-Cover with blanket.,discard116
-Feed with bottle.,discard117
-Feed with spoon.,discard118
-Brush/comb its hair.,discard119
-Pat or burp it.,discard120
-Push in stroller/buggy.,discard121
-Rock it.,discard122
-Kiss or hug it.,discard123
-Try to put shoe or sock or hat on it.,discard124
-Wipe its face or hands.,discard125
-Talk to it.,discard126
-Try to put diaper on it.,discard127
-Sweep with broom or mop.,discard128
-Put key in door or lock.,discard129
-Pound with hammer or mallet.,discard130
-Attempt to use saw.,discard131
-"""Type"" at typewriter or computer keyboard.",discard132
-"""Read"" (opens book, turns page).",discard133
-Vacuum.,discard134
-Water plants.,discard135
-"Play musical instrument (e.g., piano, trumpet).",discard136
-"""Drive"" car by turning steering wheel.",discard137
-Wash dishes.,discard138
-Clean with cloth or duster.,discard139
-Write with pen or pencil or marker.,discard140
-Dig with shovel.,discard141
-Put on glasses.,discard142
+respname,discard47
+respno,discard48
+reactmd,discard49
+arehngry,discard50
+aretired,discard51
+becarefl,discard52
+bequiet,discard53
+claphand,discard54
+cgdiaper,discard55
+comehere,discard56
+mdhome,discard57
+wantmore,discard58
+dontdo,discard59
+dontouch,discard60
+getup,discard61
+givemom,discard62
+givehug,discard63
+givekiss,discard64
+goget,discard65
+goodgb,discard66
+holdstil,discard67
+gobyebye,discard68
+lookhere,discard69
+openmth,discard70
+sitdown,discard71
+spitout,discard72
+stopit,discard73
+gonight,discard74
+throwbll,discard75
+litpiggy,discard76
+wantride,discard77
+imitate,discard78
+label,discard79
+armshow,discard80
+reachout,discard81
+points,discard82
+waves,discard83
+pickup,discard84
+shakhead,discard85
+nodhead,discard86
+showhush,discard87
+request,discard88
+blowkiss,discard89
+smacklip,discard90
+shrugs,discard91
+playpeek,discard92
+patycak2,discard93
+sobig,discard94
+chase,discard95
+dosing,discard96
+dodance,discard97
+eatspoon,discard98
+drinkcup,discard99
+combhair,discard100
+bshteeth,discard101
+wipeface,discard102
+puthat,discard103
+putshoe,discard104
+putwatch,discard105
+ptdsleep,discard106
+blowhot,discard107
+flyplane,discard108
+ptndtele,discard109
+snifflow,discard110
+pushcar,discard111
+throwges,discard112
+ptndpour,discard113
+ptndstir,discard114
+putobed,discard115
+cover,discard116
+feedbotl,discard117
+feedspon,discard118
+brushit,discard119
+burpit,discard120
+pushit,discard121
+rockit,discard122
+kissit,discard123
+dressit,discard124
+wipeit,discard125
+talkit,discard126
+diaperit,discard127
+sweep,discard128
+putkey,discard129
+pound,discard130
+usesaw,discard131
+type,discard132
+ptndread,discard133
+dovacuum,discard134
+waterplt,discard135
+playmus,discard136
+ptnddriv,discard137
+washdish,discard138
+usecloth,discard139
+usepen,discard140
+dig,discard141
+wearglas,discard142
 First Signs,discard143
 Phrases,discard144
 Imitation,discard145

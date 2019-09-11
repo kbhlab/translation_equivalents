@@ -2,31 +2,31 @@ old_names,new_names
 study_name,study_name
 subject_id,baby_id
 local_lab_id,recording_name
-bêêê bêêê,fr_bee_bee
+beeebeee,fr_bee_bee
 cocorico,fr_cocorico
-coin coin,fr_coin_coin
+coin_coin,fr_coin_coin
 grr,fr_grr
 meuh,fr_meuh
 miaou,fr_miaou
-miam miam,fr_miam_miam
-oh oh,fr_oh_oh
-aïe,fr_aie
-tchou tchou,fr_tchou_tchou
+miam_miam,fr_miam_miam
+oh_oh,fr_oh_oh
+aie,fr_aie
+tchou_tchou,fr_tchou_tchou
 vroum,fr_vroum
-wouf wouf,fr_wouf_wouf
+wouf_wouf,fr_wouf_wouf
 abeille,fr_abeille
-âne,fr_ane
+ane,fr_ane
 animal,fr_animal
 bibitte,fr_bibitte
 canard,fr_canard
 chat,fr_chat
-petit minou,fr_petit_minou
+petit_minou,fr_petit_minou
 cheval,fr_cheval
 chien,fr_chien
-petit chien,fr_petit_chien
+petit_chien,fr_petit_chien
 cochon,fr_cochon
-écureuil,fr_ecureuil
-éléphant,fr_elephant
+ecureuil,fr_ecureuil
+elephant,fr_elephant
 girafe,fr_girafe
 grenouille,fr_grenouille
 hibou,fr_hibou
@@ -35,9 +35,9 @@ lion,fr_lion
 mouton,fr_mouton
 oiseau,fr_oiseau
 ours,fr_ours
-ourson / nounours,fr_ourson_nounours
+ourson,fr_ourson_nounours
 papillon,fr_papillon
-poisson_animal,fr_poisson_animal
+poisson1,fr_poisson_animal
 poule,fr_poule_animal
 singe,fr_singe
 souris,fr_souris
@@ -49,7 +49,7 @@ autobus,fr_autobus
 avion,fr_avion
 bicyclette,fr_bicyclette
 camion,fr_camion
-camion de pompier,fr_camion_de_pompier
+camionpom,fr_camion_de_pompier
 moto,fr_moto
 poussette,fr_poussette
 train,fr_train
@@ -57,40 +57,40 @@ balle,fr_balle
 ballon,fr_ballon
 bloc,fr_bloc
 bulles,fr_bulles
-crayon / stylo,fr_crayon_stylo
+crayon_stylo,fr_crayon_stylo
 jouet,fr_jouet
 livre,fr_livre
-poupée,fr_poupee
+poupee,fr_poupee
 toutou,fr_toutou
 banane,fr_banane
 beurre,fr_beurre
 biscuit,fr_biscuit
-biscuit soda,fr_biscuit_soda
+biscuit_soda,fr_biscuit_soda
 bonbon,fr_bonbon
-café,fr_cafe
+cafe,fr_cafe
 carotte,fr_carotte
-céréales,fr_cereales
-Cheerios,fr_cheerios
-crème glacée,fr_creme_glacee
-eau_beverage,fr_eau_beverage
+cereales,fr_cereales
+cheerios,fr_cheerios
+crème_glacee,fr_creme_glacee
+eau1,fr_eau_beverage
 fromage,fr_fromage
-gâteau,fr_gateau
+gateau,fr_gateau
 jus,fr_jus
 lait,fr_lait
-nouilles / pâtes,fr_nouilles_pates
+nouilles,fr_nouilles_pates
 nourriture,fr_nourriture
 oeuf,fr_oeuf
 orange,fr_orange
 pain,fr_pain
 pizza,fr_pizza
 pois,fr_pois
-poisson_food,fr_poisson_food
+poisson2,fr_poisson_food
 pomme,fr_pomme
 poulet,fr_poulet_food
 raisin,fr_raisin
-raisin sec,fr_raisin_sec
+raisin_sec,fr_raisin_sec
 spaghetti,fr_spaghetti
-toast/rôtie,fr_toast_rotie
+toast,fr_toast_rotie
 viande,fr_viande
 bas,fr_bas
 bavette,fr_bavette
@@ -107,8 +107,8 @@ pantalon,fr_pantalon
 pyjama,fr_pyjama
 robe,fr_robe
 soulier,fr_soulier
-zip / fermeture-éclair,fr_zip_fermeture
-bedaine / ventre,fr_bedaine_ventre
+zip_ferme,fr_zip_fermeture
+bedaine,fr_bedaine_ventre
 bobo,fr_bobo
 bouche,fr_bouche
 bras,fr_bras
@@ -127,52 +127,52 @@ yeux,fr_yeux
 oreille,fr_oreille
 orteil,fr_orteil
 pied,fr_pied
-tête,fr_tete
+tete,fr_tete
 visage,fr_visage
-bain_object,fr_bain_object
-bassinette / berceau,fr_bassinette_berceau
+bain1,fr_bain_object
+bassine,fr_bassinette_berceau
 chaise,fr_chaise
-chaise berçante,fr_chaise_bercante
-chaise haute,fr_chaise_haute
+chaise_bercante,fr_chaise_bercante
+chaise_haute,fr_chaise_haute
 chambre,fr_chambre
 cuisine,fr_cuisine
 divan,fr_divan
 escalier,fr_escalier
-évier / lavabo,fr_evier_lavabo
-fenêtre,fr_fenetre
+evier,fr_evier_lavabo
+fenetre,fr_fenetre
 four,fr_four
-frigidaire / frigo,fr_frigidaire_frigo
+frigidaire,fr_frigidaire_frigo
 garage,fr_garage
 lit,fr_lit
-parc (d’enfant),fr_parc_d_enfant
-poêle,fr_poele
+parcdenfant,fr_parc_d_enfant
+poele,fr_poele
 porte,fr_porte
 pot,fr_pot
-salle de bain / toilette,fr_salle_de_bain_toilette
+salle_de_bain,fr_salle_de_bain_toilette
 salon,fr_salon
 table,fr_table
-télévision,fr_television
+television,fr_television
 tiroir,fr_tiroir
 aspirateur,fr_aspirateur
 assiette,fr_assiette
 balai,fr_balai
-boîte,fr_boite
+boite,fr_boite
 bol,fr_bol
 bouteille,fr_bouteille
 brosse,fr_brosse
-brosse à dents,fr_brosse_a_dents
+brossedents,fr_brosse_a_dents
 ciseaux,fr_ciseaux
-clés,fr_cles
-couverte / couverture,fr_couverte_couverture
-cuillère,fr_cuillere
+cles,fr_cles
+couverte,fr_couverte_couverture
+cuillere,fr_cuillere
 fourchette,fr_fourchette
 horloge,fr_horloge
 image,fr_image
 lampe,fr_lampe
-lumière,fr_lumiere
+lumiere,fr_lumiere
 lunettes,fr_lunettes
 marteau,fr_marteau
-médicament,fr_medicament
+medicament,fr_medicament
 montre,fr_montre
 oreiller,fr_oreiller
 papier,fr_papier
@@ -181,23 +181,23 @@ photo,fr_photo
 plante,fr_plante
 plat,fr_plat
 radio,fr_radio
-sacoche / sac à main,fr_sacoche_sac_a_main
+sacoche,fr_sacoche_sac_a_main
 savon,fr_savon
 serviette,fr_serviette
 tasse,fr_tasse
-téléphone,fr_telephone
+telephone,fr_telephone
 verre,fr_verre
 vidanges,fr_vidanges
 arbre,fr_arbre
-balançoire,fr_balancoire
-chez-nous,fr_chez_nous
+balancoire,fr_balancoire
+cheznous,fr_chez_nous
 ciel,fr_ciel
 cour,fr_cour
 dehors,fr_dehors
-eau_not_beverage,fr_eau_not_beverage
-école,fr_ecole
-étoile,fr_etoile
-fête,fr_fete
+eau2,fr_eau_not_beverage
+ecole,fr_ecole
+etoile,fr_etoile
+fete,fr_fete
 fleur,fr_fleur
 glissoire,fr_glissoire
 lune,fr_lune
@@ -210,57 +210,57 @@ piscine,fr_piscine
 pluie,fr_pluie
 roche,fr_roche
 soleil,fr_soleil
-travail / bureau,fr_travail_bureau
-bébé,fr_bebe
+travail,fr_travail_bureau
+bebe,fr_bebe
 bonhomme,fr_bonhomme
-dame / madame,fr_dame_madame
+dame_mad,fr_dame_madame
 enfant,fr_enfant
 fille,fr_fille
-frère,fr_frere
-garçon,fr_garcon
+frere,fr_frere
+garcon,fr_garcon
 gardienne,fr_gardienne
-gens / monde,fr_gens_monde
-grand-maman*,fr_grand_maman
-grand-papa*,fr_grand_papa
-maman*,fr_maman
+gens_mon,fr_gens_monde
+gmaman,fr_grand_maman
+gpapa,fr_grand_papa
+maman,fr_maman
 monsieur,fr_monsieur
-nom du (de la) gardien(ne),fr_nom_de_la_gardienne
-oncle / mononcle,fr_oncle_mononcle
-papa*,fr_papa
+nom_du_gardien,fr_nom_de_la_gardienne
+oncle,fr_oncle_mononcle
+papa,fr_papa
 soeur,fr_soeur
-son propre nom,fr_son_propre_nom
-tante / matante,fr_tante_matante
-allô,fr_allo
+son_propre_nom,fr_son_propre_nom
+tante,fr_tante_matante
+allo,fr_allo
 attends,fr_attends
-bain_routine,fr_bain_routine
+bain2,fr_bain_routine
 bonjour,fr_bonjour
-bonne nuit,fr_bonne_nuit
-bravo!,fr_bravo
-bye / au revoir,fr_bye_au_revoir
+bonne_nuit,fr_bonne_nuit
+bravo,fr_bravo
+aurevoir,fr_bye_au_revoir
 caca,fr_caca
 chut,fr_chut
 coucou,fr_coucou
-déjeuner,fr_dejeuner
-dîner,fr_diner
+dejeuner,fr_dejeuner
+diner,fr_diner
 dodo,fr_dodo
-faire le tour de la maison,fr_faire_le_tour_de_la_maison
-menouche menouche,fr_menouche_menouche
+faire_le_tour,fr_faire_le_tour_de_la_maison
+menouche,fr_menouche_menouche
 merci,fr_merci
 non,fr_non
-o.k.,fr_okay
+ok,fr_okay
 oui,fr_oui
 pipi,fr_pipi
-s’il-vous-plaît,fr_sil_vous_plait
+silvous,fr_sil_vous_plait
 souper,fr_souper
-tape tape,fr_tape_tape
-(je) veux,fr_je_veux
+tape_tape,fr_tape_tape
+je_veux,fr_je_veux
 aider,fr_aider
 aimer,fr_aimer
 aller,fr_aller
 allumer,fr_allumer
 amener,fr_amener
 apporter,fr_apporter
-arrêter,fr_arreter
+arreter,fr_arreter
 arroser,fr_arroser
 asseoir,fr_asseoir
 attacher,fr_attacher
@@ -272,28 +272,28 @@ balayer,fr_balayer
 bercer,fr_bercer
 boire,fr_boire
 brasser,fr_brasser
-briser / casser,fr_briser_casser
+briser_cass,fr_briser_casser
 brosser,fr_brosser
 cacher,fr_cacher
 chanter,fr_chanter
 chatouiller,fr_chatouiller
 chercher,fr_chercher
 choisir,fr_choisir
-cogner (à),fr_cogner_a
+cogner,fr_cogner_a
 couper,fr_couper
 courir,fr_courir
-courir après,fr_courir_apres
+courir_apres,fr_courir_apres
 cracher,fr_cracher
 danser,fr_danser
-débarquer,fr_debarquer
-déchirer,fr_dechirer
+debarquer,fr_debarquer
+dechirer,fr_dechirer
 descendre,fr_descendre
 dessiner,fr_dessiner
 dire,fr_dire
 donner,fr_donner
 dormir,fr_dormir
-écouter,fr_ecouter
-écrire,fr_ecrire
+ecouter,fr_ecouter
+ecrire,fr_ecrire
 embarquer,fr_embarquer
 enlever,fr_enlever
 entendre,fr_entendre
@@ -302,13 +302,13 @@ faire,fr_faire
 fermer,fr_fermer
 finir,fr_finir
 glisser,fr_glisser
-goûter,fr_gouter
+gouter,fr_gouter
 grimper,fr_grimper
 jeter,fr_jeter
 jouer,fr_jouer
 lancer,fr_lancer
 laver,fr_laver
-lécher,fr_lecher
+lecher,fr_lecher
 lire,fr_lire
 manger,fr_manger
 marcher,fr_marcher
@@ -329,9 +329,9 @@ ramasser,fr_ramasser
 regarder,fr_regarder
 renverser,fr_renverser
 rester,fr_rester
-réveiller,fr_reveiller
+reveiller,fr_reveiller
 sauter,fr_sauter
-sécher,fr_secher
+secher,fr_secher
 souffler,fr_souffler
 sourire,fr_sourire
 taper,fr_taper
@@ -345,35 +345,35 @@ trouver,fr_trouver
 venir,fr_venir
 verser,fr_verser
 voir,fr_voir
-aujourd’hui,fr_aujourd_hui
-ce soir,fr_ce_soir
+aujour,fr_aujourd_hui
+ce_soir,fr_ce_soir
 demain,fr_demain
-maintenant / tout de suite,fr_maintenant_tout_de_suite
+maintenant,fr_maintenant_tout_de_suite
 matin,fr_matin
 nuit,fr_nuit
-plus tard,fr_plus_tard
-tantôt / tout à l’heure,fr_tantot_tout_a_lheure
-avoir faim,fr_avoir_faim
-avoir mal,fr_avoir_mal
-avoir peur,fr_avoir_peur
-avoir soif,fr_avoir_soif
-beau / belle,fr_beau_belle
+plus_tard,fr_plus_tard
+tantot,fr_tantot_tout_a_lheure
+avoir_faim,fr_avoir_faim
+avoir_mal,fr_avoir_mal
+avoir_peur,fr_avoir_peur
+avoir_soif,fr_avoir_soif
+beau/belle,fr_beau_belle
 bien,fr_bien
 bleu,fr_bleu
 bon,fr_bon
-brisé / cassé,fr_brisee_cassee
+brise/casse,fr_brisee_cassee
 capable,fr_capable
 chaud,fr_chaud
 content,fr_content
 debout,fr_debout
-dégueulasse,fr_degueulasse
+degueulasse,fr_degueulasse
 doux,fr_doux
 endormi,fr_endormi
-fatigué,fr_fatiguee
+fatigue,fr_fatiguee
 fini,fr_fini
 froid,fr_froid
 gentil,fr_gentil
-gros / grand,fr_gros_grand
+gros/grand,fr_gros_grand
 malade,fr_malade
 mal,fr_mal
 parti,fr_parti
@@ -382,34 +382,34 @@ propre,fr_propre
 prudent,fr_prudent
 rouge,fr_rouge
 sale,fr_sale
-tannant / méchant,fr_tannant_mechant
+tannant,fr_tannant_mechant
 vide,fr_vide
 vite,fr_vite
-à moi,fr_a_moi
-ça,fr_ca
+a_moi,fr_a_moi
+ca,fr_ca
 je,fr_je
-(à) lui / (à) elle,fr_a_lui_a_elle
+luielle,fr_a_lui_a_elle
 moi,fr_moi
 mon,fr_mon
 son,fr_son
 toi,fr_toi
 ton,fr_ton
 tu,fr_tu
-où,fr_ou
+ou,fr_ou
 qui,fr_qui
 quoi,fr_quoi
-à terre / par terre,fr_a_terre_par_terre
+aterre,fr_a_terre_par_terre
 dans,fr_dans
-en bas,fr_en_bas
-en haut,fr_en_haut
-là / là-bas,fr_la_la_bas
-sous / en dessous,fr_sous_en_dessous
-sur / dessus,fr_sur_dessus
+en_bas,fr_en_bas
+en_haut,fr_en_haut
+labas,fr_la_la_bas
+sous,fr_sous_en_dessous
+sur_dess,fr_sur_dessus
 encore,fr_encore
 plus,fr_plus
 pas,fr_pas
-un autre,fr_un_autre
-un peu,fr_un_peu
+un_autre,fr_un_autre
+un_peu,fr_un_peu
 repeat_num,discard1
 administration_id,discard2
 link,discard3
@@ -456,106 +456,106 @@ worried_boolean,discard43
 worried,discard44
 learning_disability_boolean,discard45
 learning_disability,discard46
-Il répond quand on dit son nom (ex.: se retourne et regarde vers la personne qui l’appelle).,discard47
-"Il répond à “non, non” (ex.: arrête ce qu’il faisait, au moins pour un moment).",discard48
-Il réagit à “C’est papa” ou “C’est maman” en regardant autour de lui pour les trouver.,discard49
-Arrête ça.,discard50
-Assieds-toi.,discard51
-As-tu faim?,discard52
-C’est bien / C’est beau.,discard53
-C’est l’heure d’aller se coucher / du dodo.,discard54
-Crache ça.,discard55
-Dis bye bye / Fais tata.,discard56
-Donne-moi un bec.,discard57
-Donne-le à maman.,discard58
-En veux-tu encore?,discard59
-Es-tu fatigué?,discard60
-Fais attention.,discard61
-Lance la balle.,discard62
-Lève-toi.,discard63
-Ne bouge pas.,discard64
-Ne fais pas ça.,discard65
-Ne touche pas.,discard66
-On va changer la couche.,discard67
-Ouvre la bouche.,discard68
-Papa/maman est arrivé(e).,discard69
-Regarde.,discard70
-Reste tranquille.,discard71
-Serre-moi fort.,discard72
-Tape dans tes mains.,discard73
-Va chercher .........,discard74
-Viens-tu te promener?,discard75
-Viens ici.,discard76
-item_example1,discard77
-item_example2,discard78
-item_example3,discard79
-"Certains enfants aiment faire le perroquet ou imiter ce qu’ils entendent (comme des mots qu’ils apprennent ou des petits bouts de phrases; par exemple, répéter “aller dehors” après avoir entendu maman dire “Maman ne peut pas aller dehors.”) À quelle fréquence votre enfant imite-t-il des mots?",discard80
-"Certains enfants aiment nommer tout ce qu’ils voient, comme s’ils étaient fiers de connaître le nom des objets et de le montrer. À quelle fréquence votre enfant a-t-il ce genre de comportement?",discard81
-Tend le bras pour montrer quelque chose qu’il/elle tient.,discard82
-Tend la main pour vous donner un objet ou un jouet qu’il/elle tient.,discard83
-Pointe (avec le bras et l’index tendus) un objet ou un événement intéressant.,discard84
-Envoie la main (fait bye bye) spontanément quand quelqu’un s’en va.,discard85
-Lève les bras pour faire signe qu’il/elle veut qu’on le/la prenne.,discard86
-Fait “non” avec la tête.,discard87
-Fait “oui” avec la tête.,discard88
-Fait le geste pour “chut” en plaçant son index devant ses lèvres.,discard89
-Tend le bras et ouvre et ferme la main pour demander un objet.,discard90
-Envoie des baisers à distance.,discard91
-Claque les lèvres pour indiquer que quelque chose goûte bon.,discard92
-Hausse les épaules pour exprimer “il n’y en a plus” ou “parti”.,discard93
-Jouer à “coucou”.,discard94
-Jouer à “tape tape”.,discard95
-"Jouer à “ainsi font, font, font”.",discard96
-Jouer à attraper / se faire attraper.,discard97
-Chanter.,discard98
-Danser.,discard99
-Manger avec une cuillère ou une fourchette.,discard100
-Boire dans une tasse contenant un liquide.,discard101
-Se brosser ou se peigner les cheveux.,discard102
-Se brosser les dents.,discard103
-S’essuyer le visage ou les mains avec une serviette ou un linge.,discard104
-Se mettre un chapeau.,discard105
-Se mettre un bas ou un soulier.,discard106
-"Se mettre un collier, un bracelet ou une montre.",discard107
-Mettre sa tête sur ses mains et fermer les yeux pour faire semblant de dormir.,discard108
-Souffler pour exprimer que quelque chose est chaud.,discard109
-Tenir un avion et le faire “voler”.,discard110
-Placer le combiné du téléphone sur son oreille.,discard111
-Sentir des fleurs.,discard112
-Pousser une voiture ou un camion jouet.,discard113
-Lancer une balle.,discard114
-Transverser un liquide imaginaire d’un contenant à un autre.,discard115
-Brasser du liquide imaginaire avec une cuillère.,discard116
-Le mettre au lit.,discard117
-Lui mettre une couverture.,discard118
-Le nourrir au biberon.,discard119
-Le nourrir à la cuillère.,discard120
-"Brosser, peigner ses cheveux.",discard121
-Lui faire faire un rot.,discard122
-Le promener dans un carrosse.,discard123
-Le bercer.,discard124
-L’embrasser ou le serrer dans ses bras.,discard125
-"Essayer de lui mettre un bas, un chapeau.",discard126
-Lui essuyer le visage ou les mains.,discard127
-Lui parler.,discard128
-Essayer de lui mettre une couche.,discard129
-Passer le balai ou la vadrouille.,discard130
-Mettre une clé dans une serrure.,discard131
-Frapper avec un marteau ou un maillet.,discard132
-Essayer d’utiliser une scie.,discard133
-Frapper sur un clavier de dactylo ou d’ordinateur.,discard134
-"“Lire” (ouvrir un livre, tourner les pages).",discard135
-Passer l’aspirateur.,discard136
-Arroser les plantes.,discard137
-"Jouer d’un instrument de musique (ex. piano, trompette).",discard138
-“Conduire” la voiture en tournant le volant.,discard139
-Laver la vaisselle.,discard140
-Épousseter avec un linge ou un plumeau.,discard141
-"Écrire avec un crayon, un stylo ou un marqueur.",discard142
-Creuser avec une pelle.,discard143
-Mettre des lunettes.,discard144
-"Parfois, en jouant, les enfants utilisent un objet en faisant semblant qu’il s’agit d’autre chose. Par exemple, un enfant qui veut nourrir son ourson en peluche peut faire semblant qu’un bloc est une pomme. Un enfant peut faire semblant qu’un bol est un chapeau. Avez-vous déjà vu votre enfant faire des substitutions de ce genre?",discard145
-item_example4,discard146
+respnom,discard47
+respnon,discard48
+reactparent,discard49
+arreteca,discard50
+assieds,discard51
+astufaim,discard52
+cestbien,discard53
+cestlheure,discard54
+cracheca,discard55
+byebye,discard56
+donnemoi,discard57
+donnele,discard58
+enveuxtu,discard59
+estufatig,discard60
+faisattent,discard61
+lancelab,discard62
+levetoi,discard63
+nebouge,discard64
+nefaispas,discard65
+netouche,discard66
+changer,discard67
+ouvrela,discard68
+papaarri,discard69
+regarde,discard70
+restetranq,discard71
+serremoi,discard72
+tapedans,discard73
+vachercher,discard74
+vienstute,discard75
+viensici,discard76
+phrase_example1,discard77
+phrase_example2,discard78
+phrase_example3,discard79
+imiter,discard80
+nommer,discard81
+gestures_first1,discard82
+gestures_first2,discard83
+gestures_first3,discard84
+gestures_first4,discard85
+gestures_first5,discard86
+gestures_first6,discard87
+gestures_first7,discard88
+gestures_first8,discard89
+gestures_first9,discard90
+gestures_first10,discard91
+gestures_first11,discard92
+gestures_first12,discard93
+gestures_games1,discard94
+gestures_games2,discard95
+gestures_games3,discard96
+gestures_games4,discard97
+gestures_games5,discard98
+gestures_games6,discard99
+gestures_objects1,discard100
+gestures_objects2,discard101
+gestures_objects3,discard102
+gestures_objects4,discard103
+gestures_objects5,discard104
+gestures_objects6,discard105
+gestures_objects7,discard106
+gestures_objects8,discard107
+gestures_objects9,discard108
+gestures_objects10,discard109
+gestures_objects11,discard110
+gestures_objects12,discard111
+gestures_objects13,discard112
+gestures_objects14,discard113
+gestures_objects15,discard114
+gestures_objects16,discard115
+gestures_objects17,discard116
+gestures_parent1,discard117
+gestures_parent2,discard118
+gestures_parent3,discard119
+gestures_parent4,discard120
+gestures_parent5,discard121
+gestures_parent6,discard122
+gestures_parent7,discard123
+gestures_parent8,discard124
+gestures_parent9,discard125
+gestures_parent10,discard126
+gestures_parent11,discard127
+gestures_parent12,discard128
+gestures_parent13,discard129
+gestures_adult1,discard130
+gestures_adult2,discard131
+gestures_adult3,discard132
+gestures_adult4,discard133
+gestures_adult5,discard134
+gestures_adult6,discard135
+gestures_adult7,discard136
+gestures_adult8,discard137
+gestures_adult9,discard138
+gestures_adult10,discard139
+gestures_adult11,discard140
+gestures_adult12,discard141
+gestures_adult13,discard142
+gestures_adult14,discard143
+gestures_adult15,discard144
+pretend,discard145
+pretend_example1,discard146
 First Signs,discard147
 Phrases,discard148
 Imitation,discard149

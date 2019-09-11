@@ -3,13 +3,13 @@ study_name,study_name
 subject_id,baby_id
 local_lab_id,recording_name
 a,en_a
-a lot,en_a_lot
+a_lot,en_a_lot
 about,en_about
 above,en_above
 after,en_after
 airplane,en_airplane
 all,en_all
-all gone,en_all_gone
+allgone,en_all_gone
 alligator,en_alligator
 am,en_am
 an,en_an
@@ -26,13 +26,13 @@ arm,en_arm
 around,en_around
 asleep,en_asleep
 at,en_at
-aunt*,en_aunt
+aunt,en_aunt
 awake,en_awake
 away,en_away
-baa baa,en_baa_baa
+baa_baa,en_baa_baa
 baby,en_baby
 babysitter,en_babysitter
-babysitter's name,en_babysitters_name
+babysitter_name,en_babysitters_name
 back,en_back
 backyard,en_backyard
 bad,en_bad
@@ -56,7 +56,7 @@ bedroom,en_bedroom
 bee,en_bee
 before,en_before
 behind,en_behind
-belly button,en_belly_button
+belly_button,en_belly_button
 belt,en_belt
 bench,en_bench
 beside,en_beside
@@ -97,17 +97,17 @@ bus,en_bus
 but,en_but
 butter,en_butter
 butterfly,en_butterfly
-buttocks/bottom*,en_buttocks
+buttocks,en_buttocks
 button,en_button
 buy,en_buy
 by,en_by
 bye,en_bye
 cake,en_cake
-call (on phone),en_call_on_phone
+call,en_call_on_phone
 camera,en_camera
 camping,en_camping
-can (auxiliary),en_can_auxiliary
-can (object),en_can_object
+can.auxiliary,en_can_auxiliary
+can.object,en_can_object
 candy,en_candy
 car,en_car
 careful,en_careful
@@ -122,18 +122,18 @@ chase,en_chase
 cheek,en_cheek
 cheerios,en_cheerios
 cheese,en_cheese
-chicken (animal),en_chicken_animal
-chicken (food),en_chicken_food
+chicken.animal,en_chicken_animal
+chicken.food,en_chicken_food
 child,en_child
-child's own name,en_childs_own_name
+child_own_name,en_childs_own_name
 chin,en_chin
 chocolate,en_chocolate
-choo choo,en_choo_choo
-church*,en_church
+choo_choo,en_choo_choo
+church,en_church
 circus,en_circus
 clap,en_clap
-clean (action),en_clean_action
-clean (description),en_clean_description
+clean.action,en_clean_action
+clean.description,en_clean_description
 climb,en_climb
 clock,en_clock
 close,en_close
@@ -162,13 +162,13 @@ cry,en_cry
 cup,en_cup
 cut,en_cut
 cute,en_cute
-daddy*,en_daddy
+daddy,en_daddy
 dance,en_dance
 dark,en_dark
 day,en_day
 deer,en_deer
 diaper,en_diaper
-did/did ya,en_did_did_ya
+did,en_did_did_ya
 dinner,en_dinner
 dirty,en_dirty
 dish,en_dish
@@ -178,7 +178,7 @@ does,en_does
 dog,en_dog
 doll,en_doll
 donkey,en_donkey
-don't,en_don_t
+dont,en_don_t
 donut,en_donut
 door,en_door
 down,en_down
@@ -186,12 +186,12 @@ downtown,en_downtown
 draw,en_draw
 drawer,en_drawer
 dress,en_dress
-drink (action),en_drink_action
-drink (beverage),en_drink_beverage
+drink.action,en_drink_action
+drink.beverage,en_drink_beverage
 drive,en_drive
 drop,en_drop
-dry (action),en_dry_action
-dry (description),en_dry_description
+dry.action,en_dry_action
+dry.description,en_dry_description
 dryer,en_dryer
 duck,en_duck
 dump,en_dump
@@ -208,7 +208,7 @@ fall,en_fall
 farm,en_farm
 fast,en_fast
 feed,en_feed
-feet,en_feet
+foot,en_feet
 find,en_find
 fine,en_fine
 finger,en_finger
@@ -216,8 +216,8 @@ finish,en_finish
 fireman,en_fireman
 firetruck,en_firetruck
 first,en_first
-fish (animal),en_fish_animal
-fish (food),en_fish_food
+fish.animal,en_fish_animal
+fish.food,en_fish_food
 fit,en_fit
 fix,en_fix
 flag,en_flag
@@ -225,7 +225,7 @@ flower,en_flower
 food,en_food
 for,en_for
 fork,en_fork
-french fries,en_french_fries
+french_fries,en_french_fries
 friend,en_friend
 frog,en_frog
 full,en_full
@@ -233,33 +233,33 @@ game,en_game
 garage,en_garage
 garbage,en_garbage
 garden,en_garden
-gas station,en_gas_station
+gas_station,en_gas_station
 gentle,en_gentle
 get,en_get
 giraffe,en_giraffe
 girl,en_girl
 give,en_give
-give me five!,en_give_me_five
+give_me_five,en_give_me_five
 glass,en_glass
 glasses,en_glasses
 gloves,en_gloves
 glue,en_glue
 go,en_go
-go potty,en_go_potty
-gonna get you!,en_gonna_get_you
-gonna/going to,en_gonna_going_to
+go_potty,en_go_potty
+gonna_get_you,en_gonna_get_you
+gonna,en_gonna_going_to
 good,en_good
 goose,en_goose
-gotta/got to,en_gotta_got_to
-grandma*,en_grandma
-grandpa*,en_grandpa
+gotta,en_gotta_got_to
+grandma,en_grandma
+grandpa,en_grandpa
 grapes,en_grapes
 grass,en_grass
 green,en_green
-green beans,en_green_bean
+green_beans,en_green_bean
 grrr,en_grr
 gum,en_gum
-hafta/have to,en_hafta_have_to
+hafta,en_hafta_have_to
 hair,en_hair
 hamburger,en_hamburger
 hammer,en_hammer
@@ -283,7 +283,7 @@ hers,en_hers
 hi,en_hi
 hide,en_hide
 high,en_high
-high chair,en_high_chair
+high_chair,en_high_chair
 him,en_him
 his,en_his
 hit,en_hit
@@ -298,11 +298,11 @@ hug,en_hug
 hungry,en_hungry
 hurry,en_hurry
 hurt,en_hurt
-I,en_i
+i,en_i
 ice,en_ice
-ice cream,en_ice_cream
+ice_cream,en_ice_cream
 if,en_if
-inside/in,en_inside
+inside,en_inside
 into,en_into
 is,en_is
 it,en_it
@@ -327,17 +327,17 @@ lamb,en_lamb
 lamp,en_lamp
 last,en_last
 later,en_later
-lawn mower,en_lawn_mower
+lawn_mower,en_lawn_mower
 leg,en_leg
-lemme/let me,en_lemme_let_me
+lemme,en_lemme_let_me
 lick,en_lick
 light,en_light
 like,en_like
 lion,en_lion
 lips,en_lips
 listen,en_listen
-little (description),en_little
-living room,en_living_room
+little,en_little
+living_room,en_living_room
 lollipop,en_lollipop
 long,en_long
 look,en_look
@@ -356,7 +356,7 @@ meow,en_meow
 milk,en_milk
 mine,en_mine
 mittens,en_mittens
-mommy*,en_mommy
+mommy,en_mommy
 money,en_money
 monkey,en_monkey
 moo,en_moo
@@ -378,12 +378,12 @@ nap,en_nap
 napkin,en_napkin
 naughty,en_naughty
 necklace,en_necklace
-need/need to,en_need_need_to
+need,en_need_need_to
 new,en_new
-next to,en_next_to
+next_to,en_next_to
 nice,en_nice
 night,en_night
-night night,en_night_night
+nightnight,en_night_night
 no,en_no
 noisy,en_noisy
 none,en_none
@@ -397,10 +397,10 @@ of,en_of
 off,en_off
 old,en_old
 on,en_on
-on top of,en_on_top_of
+on_top_of,en_on_top_of
 open,en_open
-orange (description),en_orange_colour
-orange (food),en_orange_food
+orange.description,en_orange_colour
+orange.food,en_orange_food
 other,en_other
 ouch,en_ouch
 our,en_our
@@ -408,7 +408,7 @@ out,en_out
 outside,en_outisde
 oven,en_oven
 over,en_over
-owie/boo boo,en_owie_boo_boo
+owie,en_owie_boo_boo
 owl,en_owl
 paint,en_paint
 pajamas,en_pajamas
@@ -418,17 +418,17 @@ paper,en_paper
 park,en_park
 party,en_party
 pattycake,en_pattycake
-peanut butter,en_peanut_butter
+peanut_butter,en_peanut_butter
 peas,en_peas
 peekaboo,en_peekaboo
 pen,en_pen
 pencil,en_pencil
 penguin,en_penguin
-penis*,en_penis
+penis,en_penis
 penny,en_penny
 people,en_people
 person,en_person
-pet's name,en_pets_name
+pet_name,en_pets_name
 pick,en_pick
 pickle,en_pickle
 picnic,en_picnic
@@ -439,8 +439,8 @@ pizza,en_pizza
 plant,en_plant
 plate,en_plate
 play,en_play
-play dough,en_play_dough
-play pen,en_playpen
+play_dough,en_play_dough
+play_pen,en_playpen
 playground,en_playground
 please,en_please
 police,en_police
@@ -451,7 +451,7 @@ popcorn,en_popcorn
 popsicle,en_popsicle
 porch,en_porch
 potato,en_potato
-potato chip,en_potatochip
+potato_chip,en_potatochip
 potty,en_potty
 pour,en_pour
 present,en_present
@@ -466,7 +466,7 @@ purse,en_purse
 push,en_push
 put,en_put
 puzzle,en_puzzle
-quack quack,en_quack_quack
+quack_quack,en_quack_quack
 quiet,en_quiet
 radio,en_radio
 rain,en_rain
@@ -477,7 +477,7 @@ refrigerator,en_refrigerator
 ride,en_ride
 rip,en_rip
 rock,en_rock
-rocking chair,en_rocking_chair
+rocking_chair,en_rocking_chair
 roof,en_roof
 room,en_room
 rooster,en_rooster
@@ -498,7 +498,7 @@ shake,en_shake
 share,en_share
 she,en_she
 sheep,en_sheep
-shh/shush/hush,en_shh_shush
+shh,en_shh_shush
 shirt,en_shirt
 shoe,en_shoe
 shopping,en_shopping
@@ -518,8 +518,8 @@ sky,en_sky
 sled,en_sled
 sleep,en_sleep
 sleepy,en_sleepy
-slide (action),en_slide_action
-slide (object),en_slide_object
+slide.action,en_slide_action
+slide.object,en_slide_object
 slipper,en_slipper
 slow,en_slow
 smile,en_smile
@@ -529,10 +529,10 @@ snow,en_snow
 snowman,en_snowman
 snowsuit,en_snowsuit
 so,en_so
-so big!,en_so_big
+so_big,en_so_big
 soap,en_soap
 sock,en_sock
-soda/pop,en_soda_pop
+soda,en_soda_pop
 sofa,en_sofa
 soft,en_soft
 some,en_some
@@ -562,8 +562,8 @@ sun,en_sun
 sweater,en_sweater
 sweep,en_sweep
 swim,en_swim
-swing (action),en_swing_action
-swing (object),en_swing_object
+swing.action,en_swing_action
+swing.object,en_swing_object
 table,en_table
 take,en_take
 talk,en_talk
@@ -572,8 +572,8 @@ taste,en_taste
 teacher,en_teacher
 tear,en_tear
 teddybear,en_teddy_bear
-telephone/cellphone*,en_telephone
-thank you,en_thank_you
+telephone,en_telephone
+thank_you,en_thank_you
 that,en_that
 the,en_the
 their,en_their
@@ -585,7 +585,7 @@ they,en_they
 think,en_think
 thirsty,en_thirsty
 this,en_this
-this little piggy,en_this_little_piggy
+this_little_piggy,en_this_little_piggy
 those,en_those
 throw,en_throw
 tickle,en_tickle
@@ -594,7 +594,7 @@ tights,en_tights
 time,en_time
 tiny,en_tiny
 tired,en_tired
-tissue/kleenex,en_tissue_kleenex
+tissue,en_tissue_kleenex
 to,en_to
 toast,en_toast
 today,en_today
@@ -615,21 +615,21 @@ tray,en_tray
 tree,en_tree
 tricycle,en_tricycle
 truck,en_truck
-try/try to,en_try_try_to
+try,en_try_try_to
 tummy,en_tummy
 tuna,en_tuna
 turkey,en_turkey
-turn around,en_turn_around
+turn_around,en_turn_around
 turtle,en_turtle
-TV,en_TV
-uh oh,en_uh_oh
-uncle*,en_uncle
+tv,en_TV
+uh_oh,en_uh_oh
+uncle,en_uncle
 under,en_under
 underpants,en_underpants
 up,en_up
 us,en_us
 vacuum,en_vacuum
-vagina*,en_vagina
+vagina,en_vagina
 vanilla,en_vanilla
 vitamins,en_vitamins
 vroom,en_vroom
@@ -637,14 +637,14 @@ wait,en_wait
 wake,en_wake
 walk,en_walk
 walker,en_walker
-wanna/want to,en_wanna_want_to
+wanna,en_wanna_want_to
 was,en_was
 wash,en_wash
-washing machine,en_washing_machine
-watch (action),en_watch_action
-watch (object),en_watch_object
-water (beverage),en_water_beverage
-water (not beverage),en_water_not_beverage
+washing_machine,en_washing_machine
+watch.action,en_watch_action
+watch.object,en_watch_object
+water.beverage,en_water_beverage
+water.not_beverage,en_water_not_beverage
 we,en_we
 were,en_were
 wet,en_wet
@@ -664,9 +664,9 @@ wish,en_wish
 with,en_with
 wolf,en_wolf
 woods,en_woods
-woof woof,en_woof_woof
-work (action),en_work_action
-work (place),en_work_place
+woof_woof,en_woof_woof
+work.action,en_work_action
+work.place,en_work_place
 would,en_would
 write,en_write
 yard,en_yard
@@ -678,21 +678,21 @@ you,en_you
 your,en_your
 yourself,en_yourself
 yucky,en_yucky
-yum yum,en_yum_yum
+yum_yum,en_yum_yum
 zebra,en_zebra
 zipper,en_zipper
 zoo,en_zoo
-does your child ever talk about past events or people who are not present?,discard1
-does your child ever talk about something that's going to happen in the future?,discard2
-does your child talk about objects that are not present?,discard3
-does your child understand if you ask for something that is not in the room?,discard4
-does your child ever pick up or point to an object and name an absent person to whom the object belongs?,discard5
-"To talk about more than one thing we add an “s” to many words. Examples include cars (for more than one car), shoes, dogs and keys. Has your child begun to do this?",discard6
-"To talk about ownership, we add an “'s”, for example, Daddy's key, kitty's dish, and baby's bottle. Has your child begun to do this?",discard7
-"To talk about activities, we sometimes add “ing” to verbs. Examples include looking, running, and crying. Has your child begun to do this?",discard8
-"To talk about things that happened in the past, we often add “ed” to the verb. Examples include kissed, opened, and pushed. Has your child begun to do this?",discard9
+usepast,discard1
+usefuture,discard2
+miss_produce,discard3
+miss_comp,discard4
+usepossessive,discard5
+splural,discard6
+spossess,discard7
+ing,discard8
+ed,discard9
 children,discard10
-feet_plural,discard11
+feet,discard11
 men,discard12
 mice,discard13
 teeth,discard14
@@ -717,7 +717,7 @@ saw,discard32
 took,discard33
 went,discard34
 blockses,discard35
-childrens,discard36
+childrns,discard36
 childs,discard37
 feets,discard38
 foots,discard39
@@ -761,47 +761,47 @@ satted,discard76
 sitted,discard77
 taked,discard78
 wented,discard79
-Has your child begun to combine words yet?,discard80
-item_example1,discard81
-item_example2,discard82
-item_example3,discard83
-two shoe / two shoes,discard84
-two foot / two feet,discard85
-daddy car / daddy's car,discard86
-kitty sleep / kitty sleeping,discard87
-I make tower / I making tower,discard88
-I fall down / I fell down,discard89
-more cookie / more cookies,discard90
-these my tooth / these my teeth,discard91
-baby blanket / baby's blanket,discard92
-doggie kiss me / doggie kissed me,discard93
-daddy pick me up / daddy picked me up,discard94
-kitty go away / kitty went away,discard95
-doggie table / doggie on table,discard96
-that my truck / that's my truck,discard97
-baby crying / baby is crying,discard98
-you fix it / can you fix it,discard99
-"read me story, Mommy / read me a story, Mommy",discard100
-no wash dolly / don't wash dolly,discard101
-want more juice / want juice in there,discard102
-there a kitty / there's a kitty,discard103
-go bye-bye / wanna go bye-bye,discard104
-where mommy go / where did mommy go,discard105
-coffee hot / that coffee hot,discard106
-I no do it / I can't do it,discard107
-I like read stories / I like to read stories,discard108
-don't read book / don't want you read that book,discard109
-turn on light / turn on light so I can see,discard110
-I want that / I want that one you got,discard111
-want cookies / want cookies and milk,discard112
-cookie mommy / cookie for mommy,discard113
-baby want eat / baby want to eat,discard114
-lookit me / lookit me dancing,discard115
-lookit / lookit what I got,discard116
-where's my dolly / where's my dolly name Sam,discard117
-we made this / me and Paul made this,discard118
-I sing song / I sing song for you,discard119
-baby crying / baby crying cuz she's sad,discard120
+combine,discard80
+combination_example1,discard81
+combination_example2,discard82
+combination_example3,discard83
+complx01,discard84
+complx02,discard85
+complx03,discard86
+complx04,discard87
+complx05,discard88
+complx06,discard89
+complx07,discard90
+complx08,discard91
+complx09,discard92
+complx10,discard93
+complx11,discard94
+complx12,discard95
+complx13,discard96
+complx14,discard97
+complx15,discard98
+complx16,discard99
+complx17,discard100
+complx18,discard101
+complx19,discard102
+complx20,discard103
+complx21,discard104
+complx22,discard105
+complx23,discard106
+complx24,discard107
+complx25,discard108
+complx26,discard109
+complx27,discard110
+complx28,discard111
+complx29,discard112
+complx30,discard113
+complx31,discard114
+complx32,discard115
+complx33,discard116
+complx34,discard117
+complx35,discard118
+complx36,discard119
+complx37,discard120
 Total Produced,discard121
 How Children Use Words,discard122
 Word Endings 1,discard123
