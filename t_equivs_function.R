@@ -14,14 +14,6 @@ t_equivs <- function(en_data, fr_data, output = "by_baby") {
     
     #WORDS AND GESTURES:
     
-    #rename problematic french data columns:
-    names(fr_data)[120] <- "poisson_animal"
-    names(fr_data)[155] <- "eau_beverage"
-    names(fr_data)[167] <- "poisson_food"
-    names(fr_data)[212] <- "bain_object"
-    names(fr_data)[277] <- "eau_not_beverage"
-    names(fr_data)[315] <- "bain_routine"
-    
     #load lookup tables:
     
     lookup_en_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_en_colnames.csv", 
@@ -30,23 +22,23 @@ t_equivs <- function(en_data, fr_data, output = "by_baby") {
     lookup_fr_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_fr_colnames.csv",
                                    col_types = cols(.default = col_character())) #this is the lookup table for renaming the French data columns from Web CDI (CAUTION: currently Web CDI French data download column names have duplicates that must be changed manually before this code can work correctly)
     
-    TE_IDs_en <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_TE_IDs_en.csv",
-                          col_types = cols(.default = col_character())) #this is the lookup table for merging English data with TE IDs
-    TE_IDs_fr <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_TE_IDs_fr.csv",
-                          col_types = cols(.default = col_character())) #this is the lookup table for merging French data with TE IDs
+    TE_IDs_en <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_TE_IDs.csv",
+                          col_types = cols(.default = col_character())) %>% select(en_word, TE_ID) #this is the lookup table for merging English data with TE IDs
+    TE_IDs_fr <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/wg_lookup_TE_IDs.csv",
+                          col_types = cols(.default = col_character())) %>% select(fr_word, TE_ID) #this is the lookup table for merging French data with TE IDs
     
     #change column names and select only relevant columns for calculating TE score:
     
     names(en_data) <- lookup_en_colnames$new_names[match(names(en_data), lookup_en_colnames$old_names)] #this code matches all colnames in the lookup table -- if new colnames are added to Web CDI and not in the lookup table, they will become NA
-    en_data <- en_data %>% select(-contains("discard"))
+    en_data <- en_data %>% select(baby_id, recording_name, en_baa_baa:en_some)
     
     names(fr_data) <- lookup_fr_colnames$new_names[match(names(fr_data), lookup_fr_colnames$old_names)] #this code matches all colnames in the lookup table -- if new colnames are added to Web CDI and not in the lookup table, they will become NA
-    fr_data <- fr_data %>% select(-contains("discard"))
+    fr_data <- fr_data %>% select(baby_id, recording_name, fr_bee_bee:fr_un_peu)
     
     #make data long:
     
-    en_data <- en_data %>% gather(key = "word", value = "knowledge", -study_name, -baby_id, -recording_name)
-    fr_data <- fr_data %>% gather(key = "word", value = "knowledge", -study_name, -baby_id, -recording_name)
+    en_data <- en_data %>% gather(key = "word", value = "knowledge", -baby_id, -recording_name)
+    fr_data <- fr_data %>% gather(key = "word", value = "knowledge", -baby_id, -recording_name)
     
     #merge with TE IDs:
     
@@ -141,28 +133,7 @@ t_equivs <- function(en_data, fr_data, output = "by_baby") {
     
     #WORDS AND SENTENCES:
     
-    #rename problematic data columns:
-    names(fr_data)[94] <- "poisson_animal"
-    names(fr_data)[158] <- "eau_beverage"
-    names(fr_data)[181] <- "poisson_food"
-    names(fr_data)[302] <- "bain_object"
-    names(fr_data)[344] <- "eau_not_beverage"
-    names(fr_data)[419] <- "bain_routine"
-    names(fr_data)[96] <- "poulet_animal"
-    names(fr_data)[186] <- "poulet_food"
-    names(fr_data)[288] <- "pot_jar"
-    names(fr_data)[328] <- "pot_potty"
-    names(fr_data)[119] <- "baton_bat"
-    names(fr_data)[339] <- "baton_stick"
-    names(fr_data)[175] <- "orange_food"
-    names(fr_data)[593] <- "orange_colour"
-    names(fr_data)[723] <- "fin_is_1"
-    names(fr_data)[737] <- "fin_is_2"
-    names(fr_data)[733] <- "fini2"
-    names(en_data)[740] <- "feet_plural"
-    
-    en_data <- en_data %>% select(1:3, `baa baa`:then)
-    fr_data <- fr_data %>% select(1:3, learning_disability:si)
+    #load lookup tables:
     
     lookup_en_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_en_colnames.csv",
                                    col_types = cols(.default = col_character())) #this is the lookup table for renaming the English data columns from Web CDI
@@ -170,25 +141,25 @@ t_equivs <- function(en_data, fr_data, output = "by_baby") {
     lookup_fr_colnames <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_fr_colnames.csv",
                                    col_types = cols(.default = col_character())) #this is the lookup table for renaming the French data columns from Web CDI (CAUTION: currently Web CDI French data download column names have duplicates that must be changed manually before this code can work correctly)
     
-    TE_IDs_en <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_TE_IDs_en.csv",
-                          col_types = cols(.default = col_character())) #this is the lookup table for merging English data with TE IDs
-    TE_IDs_fr <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_TE_IDs_fr.csv",
-                          col_types = cols(.default = col_character())) #this is the lookup table for merging French data with TE IDs
+    TE_IDs_en <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_TE_IDs.csv",
+                          col_types = cols(.default = col_character())) %>% select(en_word, TE_ID) #this is the lookup table for merging English data with TE IDs
+    TE_IDs_fr <- read_csv("https://raw.githubusercontent.com/kbhlab/translation_equivalents/master/ws_lookup_TE_IDs.csv",
+                          col_types = cols(.default = col_character())) %>% select(fr_word, TE_ID) #this is the lookup table for merging French data with TE IDs
     
     
     #change column names and select only relevant columns for calculating TE score:
     
     names(en_data) <- lookup_en_colnames$new_names[match(names(en_data), lookup_en_colnames$old_names)] #this code matches all colnames in the lookup table -- if new colnames are added to Web CDI and not in the lookup table, they will become NA
-    en_data <- en_data %>% select(-contains("discard"))
+    en_data <- en_data %>% select(baby_id, recording_name, en_baa_baa:en_then)
     
     names(fr_data) <- lookup_fr_colnames$new_names[match(names(fr_data), lookup_fr_colnames$old_names)] #this code matches all colnames in the lookup table -- if new colnames are added to Web CDI and not in the lookup table, they will become NA
-    fr_data <- fr_data %>% select(-contains("discard"))
+    fr_data <- fr_data %>% select(baby_id, recording_name, fr_aie:fr_si)
     
     
     #make data long:
     
-    en_data <- en_data %>% gather(key = "word", value = "knowledge", -study_name, -baby_id, -recording_name)
-    fr_data <- fr_data %>% gather(key = "word", value = "knowledge", -study_name, -baby_id, -recording_name)
+    en_data <- en_data %>% gather(key = "word", value = "knowledge", -baby_id, -recording_name)
+    fr_data <- fr_data %>% gather(key = "word", value = "knowledge", -baby_id, -recording_name)
     
     
     #merge with TE IDs:
