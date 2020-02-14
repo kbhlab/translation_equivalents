@@ -2,13 +2,13 @@
 
 t_equivs <- function(en_data, fr_data, output = "by_baby") {
   
-  if(!(ncol(en_data) == 555 || ncol(en_data) == 858 )) 
-    stop("Error: English data input must be in csv from WebCDI download 'CSV/ALL'")
-  if(!(ncol(fr_data) == 572 || ncol(fr_data) == 815 )) 
-    stop("Error: French data input must be in csv from WebCDI download 'CSV/ALL'")
-  
-  message_summary <- "\n* * * * * \nOutputting TE summary scores for your whole dataset. If you would like to see TE scores by baby ID, please set argument output = 'by_baby'\n\n* * * * *"
-  message_by_baby <- "\n* * * * * \nOutputting TE scores by baby ID. If you would like to see summary TE scores, please set argument output = 'summary'\n\n* * * * *"
+  # if(!(ncol(en_data) == 555 || ncol(en_data) == 858 )) 
+  #   stop("Error: English data input must be in csv from WebCDI download 'CSV/ALL'")
+  # if(!(ncol(fr_data) == 572 || ncol(fr_data) == 815 )) 
+  #   stop("Error: French data input must be in csv from WebCDI download 'CSV/ALL'")
+  # 
+  # message_summary <- "\n* * * * * \nOutputting TE summary scores for your whole dataset. If you would like to see TE scores by baby ID, please set argument output = 'by_baby'\n\n* * * * *"
+  # message_by_baby <- "\n* * * * * \nOutputting TE scores by baby ID. If you would like to see summary TE scores, please set argument output = 'summary'\n\n* * * * *"
   
   if(ncol(en_data) < 600) {
     
